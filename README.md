@@ -9,7 +9,6 @@ WEB MERN Project - Final project of web course.
 > #### POST -http://localhost:8080/users
 > #### PUT -http://localhost:8080/users/6
 > #### DELETE -http://localhost:8080/users/7
-> #### GET -http://localhost:8080/users/country/russia
 ****
 
 # Modules
