@@ -1,5 +1,5 @@
 const express = require('express');
-const { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, middlewareMovietId, middlewareDefault, findUserMovies } = require('./comments-controller');
+const { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, middlewareMovietId, middlewareDefault, findUserMovies } = require('./movies-controller');
 let router = express.Router();
 
 

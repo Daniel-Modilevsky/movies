@@ -7,7 +7,7 @@ const userSchema = mongoose.Schema({
     user_name: { type: String, require: true, unique: true },
     email: { type: String, require: true, unique: true },
     password: { type: String, require: true },
-    moviesCollection: { type: [Schema.Types.ObjectId], ref: 'Movie' },
+    moviesCollection: { type: [mongoose.Schema.Types.ObjectId], ref: 'Movie' },
     isAdmin: {type: Boolean, default: false},
     isdeleted: {type: Boolean, default: false}
 },{ collection: 'users'});

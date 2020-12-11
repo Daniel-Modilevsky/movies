@@ -29,7 +29,6 @@ const middlewareId = async function(req, res, next) {
         return res.status(401).json({message});
     }
 };
-
 const getAllUsers = async function(req, res){
     try{
         logger.info('getAllUser');
@@ -43,7 +42,6 @@ const getAllUsers = async function(req, res){
         return res.status(400).json({message})
     }
 };
-
 const getUser = async function(req, res){
     try{
         const user = await User.findById({ id: req.params.id });
@@ -52,7 +50,6 @@ const getUser = async function(req, res){
     }
     catch (error) {return res.status(400).json({error});}
 };
-
 const updateUser = async function(req, res){
     try{
         logger.info('updateUser');
@@ -76,5 +73,4 @@ const deleteUser = async function(req, res){
     }
     catch (error) {return res.status(400).json({error});}
 };
-
 module.exports =  { getAllUsers, getUser, updateUser, deleteUser, middlewareId, middlewareDefault };

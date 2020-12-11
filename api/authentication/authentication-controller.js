@@ -44,7 +44,7 @@ const signup = async function (req, res) {
 };
 const login = async function (req, res) {
     try{
-        const newUser = { user_name = req.body.user_name, password = req.body.password };
+        const newUser = { user_name : req.body.user_name, password : req.body.password };
         const profile = await User.findOne({ user_name: newUser.user_name });
         if (!profile) {
             message = "Error - User not exists";
