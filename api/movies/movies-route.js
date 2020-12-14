@@ -1,10 +1,9 @@
 const express = require('express');
-const { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, middlewareMovietId, middlewareDefault, findUserMovies } = require('./movies-controller');
+const { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, middlewareMovietId, findUserMovies } = require('./movies-controller');
 let router = express.Router();
 
 
 //Middlewares
-router.use(middlewareDefault);
 router.get('/api/movies/:id', findUserMovies);
 router.use('/api/movies/:id', middlewareMovietId);
 

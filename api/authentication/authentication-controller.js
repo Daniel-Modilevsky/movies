@@ -3,6 +3,7 @@ const User = require("../../api/users/users-model");
 const mongoose = require("mongoose");
 const bcrypt = require('bcrypt');
 let message = '';
+const url = require('url');
 
 function validateEmail(email) {
     const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;

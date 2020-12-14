@@ -2,3 +2,67 @@
 
 2020.12.11, 08:41:28.0499 UTC -> Error : You went into a 404 problem - Please try a valid route
 
+2020.12.11, 10:27:03.0858 UTC -> Error : ReferenceError: user is not defined
+
+2020.12.11, 10:28:37.0985 UTC -> Error : TypeError: userProjects.find is not a function
+
+2020.12.11, 10:28:44.0977 UTC -> Error : TypeError: userProjects.find is not a function
+
+2020.12.11, 10:29:38.0249 UTC -> Error : TypeError: userProjects.forEach is not a function
+
+2020.12.11, 10:58:27.0881 UTC -> Error : TypeError: userProjects.forEach is not a function
+
+2020.12.14, 12:45:03.0768 UTC -> Error : TypeError: userProjects.forEach is not a function
+
+2020.12.14, 14:38:36.0334 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.14, 14:39:43.0045 UTC -> Error : TypeError: userProjects.forEach is not a function
+
+2020.12.14, 14:40:45.0934 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.14, 15:12:03.0667 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.14, 15:12:16.0891 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.14, 15:12:19.0968 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.14, 15:12:29.0090 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.14, 15:12:51.0784 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.14, 15:14:57.0357 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.14, 15:15:04.0923 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.14, 15:15:07.0773 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.14, 15:15:44.0044 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.14, 15:22:15.0676 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.14, 15:22:42.0659 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.14, 15:23:26.0538 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.14, 15:28:11.0906 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.14, 15:56:30.0034 UTC -> Error : Error - Missing Params -(user_name, password, email) are required params and can not be empty
+
+2020.12.14, 15:56:43.0846 UTC -> Error : Error - Missing Params -(user_name, password, email) are required params and can not be empty
+
+2020.12.14, 15:57:16.0528 UTC -> Error : Error - User not exists
+
+2020.12.14, 16:52:41.0189 UTC -> Error : Error - User not exists
+
+2020.12.14, 17:12:42.0747 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.14, 17:12:48.0878 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.14, 17:15:40.0927 UTC -> Error : Error - User not exists
+
+2020.12.14, 17:54:56.0281 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.14, 18:00:58.0202 UTC -> Error : Error - User not exists
+
+2020.12.14, 18:02:49.0991 UTC -> Error : Error - User not exists
+

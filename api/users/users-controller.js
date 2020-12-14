@@ -5,10 +5,6 @@ const User = require('./users-model');
 let message = '';
 
 
-const middlewareDefault = function(req, res, next) {
-    logger.http(`Requiest URL: ${req.method} ${req.originalUrl}`);
-    next();
-};
 const middlewareId = async function(req, res, next) {
     try{
         const { id } = req.params;
@@ -73,4 +69,4 @@ const deleteUser = async function(req, res){
     }
     catch (error) {return res.status(400).json({error});}
 };
-module.exports =  { getAllUsers, getUser, updateUser, deleteUser, middlewareId, middlewareDefault };
+module.exports =  { getAllUsers, getUser, updateUser, deleteUser, middlewareId };

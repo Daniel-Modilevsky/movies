@@ -1,10 +1,9 @@
 const express = require('express');
-const { getAllComments, getComment, createComment, updateComment, deleteComment, middlewareCommentId, middlewareDefault, findUserComments, findMoviesCommented } = require('./comments-controller');
+const { getAllComments, getComment, createComment, updateComment, deleteComment, middlewareCommentId, findUserComments, findMoviesCommented } = require('./comments-controller');
 let router = express.Router();
 
 
 //Middlewares
-router.use(middlewareDefault);
 router.get('/api/comments/:id', findUserComments);
 router.get('/api/comments/movies/:id', findMoviesCommented);
 router.use('/api/comments/:id', middlewareCommentId);

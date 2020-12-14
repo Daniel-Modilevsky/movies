@@ -6,10 +6,6 @@ const Movie = require('../movies/movies-model');
 let message = '';
 
 
-const middlewareDefault = function(req, res, next) {
-    logger.http(`Requiest URL: ${req.method} ${req.originalUrl}`);
-    next();
-};
 const middlewareMovietId = async function(req, res, next) {
     try{
         const { id } = req.params;
@@ -137,4 +133,4 @@ const findUserMovies = async function(req, res){
     }
 };
 
-module.exports =  { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, middlewareMovietId, middlewareDefault, findUserMovies };
+module.exports =  { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, middlewareMovietId, findUserMovies };

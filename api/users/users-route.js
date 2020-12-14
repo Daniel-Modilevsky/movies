@@ -1,9 +1,8 @@
 const express = require('express');
-const { getAllUsers, getUser, updateUser, deleteUser, middlewareId, middlewareDefault } = require('./users-controller');
+const { getAllUsers, getUser, updateUser, deleteUser, middlewareId } = require('./users-controller');
 let router = express.Router();
 
 //Middlewares
-router.use(middlewareDefault);
 router.use('/api/users/:id', middlewareId);
 
 //Routes
