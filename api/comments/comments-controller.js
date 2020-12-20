@@ -60,7 +60,7 @@ const createComment = async function(req, res){
         const comment = await Comment.findById({id:newComment.id});
         if(!comment){
             newComment.save();
-            logger.info(`Success - Created New Tweet ${newComment}`);
+            logger.info(`Success - Created New Comment ${newComment}`);
             return res.status(200).json(newComment);
         }
         else{

@@ -44,7 +44,7 @@ const getMovie = async function(req, res){
         logger.info('getMovie');
         const movie = await Movie.findById({ id: req.params.id });
         logger.info(movie);
-        return res.status(200).json({message});
+        return res.status(200).json({movie});
     }
     catch (error) {return res.status(400).json({error});}
 };

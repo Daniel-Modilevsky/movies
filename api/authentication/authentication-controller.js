@@ -24,6 +24,11 @@ const middlewareEmail = function (req, res, next) {
 };
 const signup = async function (req, res) {
     try{
+        logger.warn(`req.body.user_name: ${req.body.user_name}`);
+        logger.warn(`req.body.password: ${req.body.password}`);
+        logger.warn(`req.body.email: ${req.body.email}`);
+        logger.warn(`req.body.password2: ${req.body.password2}`);
+
         if (!req.body.user_name || !req.body.password || !req.body.email || !req.body.password2) {
             message = "Error - Missing Params -(user_name, password, email) are required params and can not be empty";
             logger.error(message);
@@ -37,38 +42,45 @@ const signup = async function (req, res) {
             return res.status(200).json({ newUser });
         }
     }
-    catch {
-        message = `Error - can not create this user`;
-        logger.error(`${message} ${err}`);
+    catch(error) {
+        message = `Error - can not create this user -`;
+        logger.error(`${message} ${error}`);
         return res.status(401).json({ message });
     }
 };
 const login = async function (req, res) {
     try{
+        logger.warn(`req.body.user_name: ${req.body.user_name}`);
+        logger.warn(`req.body.password: ${req.body.password}`);
+
+        logger.warn(`req.params.user_name: ${req.params.user_name}`);
+        
         const newUser = { user_name : req.body.user_name, password : req.body.password };
+        logger.debug(newUser.user_name);
         const profile = await User.findOne({ user_name: newUser.user_name });
         if (!profile) {
             message = "Error - User not exists";
             logger.error(message);
-            return res.status(401).json({ message: message });
+            res.status(401).json({ message });
         }
         else {
             if (!bcrypt.compareSync(profile.password, newUser.password)) {  
                 message = "Success - User Loged in";
                 logger.info(message);
                 logger.info(profile);
-                return res.status(200).json({ profile });         
+                logger.debug('sended');
+                res.status(200).json({ profile });         
             }
             else { 
                 message = "Error - User Unauthorized Access";
                 logger.error(message);
-                return res.status(401).json({ message: message });    
+                return res.status(401).json({ message });    
             }
         }
     }
-    catch{
+    catch(error){
         message = `Error - can not Loged in`;
-        logger.error(`${message} ${err}`);
+        logger.error(`${message} ${error}`);
         return res.status(401).json({ message });
     }
 };
