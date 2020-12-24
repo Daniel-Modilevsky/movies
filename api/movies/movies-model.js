@@ -6,13 +6,14 @@ const movieSchema = mongoose.Schema({
     name:  {type: String , require: true },
     year: { type: Number , require: true , min: 1950, max: 2040},
     runTime: {type: Number , require: true, min: 0},
-    categories : { type: [String] ,enum:["Comedy", "Action", "Drama", "Crime", "Fantasy", "Romance", "Horror", "Documentaries"], require: true},
+    categories : { type: [String] ,enumValues:["Comedy", "Action", "Drama", "Crime", "Fantasy", "Romance", "Horror", "Documentaries", "Adventure", "Thriller", "Animation"], require: true},
     releaseDate: { type: Date , require: true},
-    director: { type: String , default: 'none'},
-    writer: { type: String , default: 'none'},
-    actors: { type: [String] , default: 'none'},
+    director: { type: String },
+    writer: { type: String },
+    actors: { type: [String] , require: true},
     storyline: { type: String , default: 'none'},
     rate: {type: Number , default: 2},
+    image: {type: String, require: true },
     isdeleted: {type: Boolean, default: false}
 },{ collection: 'movies'});
 

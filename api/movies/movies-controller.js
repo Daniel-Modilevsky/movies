@@ -2,8 +2,9 @@ const mongoose = require('mongoose');
 const logger = require('../../lib/logs');
 const config = require('../../config/config-default');
 const Movie = require('../movies/movies-model');
-
-let message = '';
+const upload = require('../../lib/images');
+// add upload.single('image') as a midlleware before create
+const fs = require('fs');
 
 
 const middlewareMovietId = async function(req, res, next) {
@@ -51,25 +52,26 @@ const getMovie = async function(req, res){
 const createMovie = async function(req, res){
     try{
         logger.info('createMovie');
-        if(!req.body.name || !req.body.year || !req.body.runTime || !req.body.categories || !req.body.releaseDate){
+        if(!req.body.name || !req.body.year || !req.body.runTime || !req.body.categories || !req.body.releaseDate ){
             logger.error('Error - Missing Params - can not complete valis creation without (name & year & runTim & categories & releaseDate) params');
             return res.status(400).send('Error - Missing Params - can not complete valis creation without (name & year & runTim & categories & releaseDate) params');
         }
-        let newMovie = {
-            id: mongoose.Types.ObjectId(),
+        let newMovie = new Movie ({
+            _id: mongoose.Types.ObjectId(),
             name: req.body.name,
             year: req.body.year,
             runTime:req.body.runTime,
             categories:req.body.categories,
-            releaseDate:req.body.releaseDate 
-        };
-        if(req.params.director) newMovie.director = req.params.director;
-        if(req.params.writer) newMovie.writer = req.params.writer;
-        if(req.params.actors) newMovie.actors = req.params.actors;
-        if(req.params.storyline) newMovie.storyline = req.params.storyline;
-        if(req.params.rate) newMovie.rate = req.params.rate;
+            releaseDate:req.body.releaseDate,
+            image: req.file.path.replace('\\','/')
+        });
+        if(req.body.director) newMovie.director = req.body.director;
+        if(req.body.writer) newMovie.writer = req.body.writer;
+        if(req.body.actors) newMovie.actors = req.body.actors;
+        if(req.body.storyline) newMovie.storyline = req.body.storyline;
+        if(req.body.rate) newMovie.rate = req.body.rate;
 
-        const movie = await Movie.findById({id:newMovie.id});
+        const movie = await Movie.findById({_id:newMovie._id});
         if(!movie){
             newMovie.save();
             logger.info(`Success - Created New Movie ${newMovie}`);
@@ -132,5 +134,6 @@ const findUserMovies = async function(req, res){
         return res.status(400).json(message);
     }
 };
+
 
 module.exports =  { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, middlewareMovietId, findUserMovies };
