@@ -3,14 +3,12 @@ const logger = require('../../lib/logs');
 const config = require('../../config/config-default');
 const Movie = require('../movies/movies-model');
 const upload = require('../../lib/images');
-// add upload.single('image') as a midlleware before create
 const fs = require('fs');
 
 
-const middlewareMovietId = async function(req, res, next) {
+const middlewareMovietId = async function(req, res, next){
     try{
-        const { id } = req.params;
-        const movie = await Movie.findById({id});
+        const movie = await Movie.findOne({ _id: req.params.id });
         if(!movie){
             message = 'Error - movie not exist';
             logger.error(message);
@@ -43,7 +41,7 @@ const getAllmovies = async function(req, res){
 const getMovie = async function(req, res){
     try{
         logger.info('getMovie');
-        const movie = await Movie.findById({ id: req.params.id });
+        const movie = await Movie.findOne({ _id: req.params.id });
         logger.info(movie);
         return res.status(200).json({movie});
     }
@@ -135,5 +133,14 @@ const findUserMovies = async function(req, res){
     }
 };
 
+const getByCategory = async function(req, res){
+    try{
+        logger.info('getByCategory');
+        const movies = await Movie.find({ categories: {$regex: `${req.params.categoryName}`}}).limit(5).sort();
+        logger.info(`founded ${movies.length} movies by ${req.params.categoryName} category`);
+        return res.status(200).json(movies);
+    }
+    catch (error) {return res.status(400).json({error});}
+}
 
-module.exports =  { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, middlewareMovietId, findUserMovies };
+module.exports =  { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, middlewareMovietId, findUserMovies, getByCategory};

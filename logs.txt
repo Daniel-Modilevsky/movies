@@ -36,3 +36,95 @@
 
 2020.12.23, 18:26:43.0649 UTC -> Error : You went into a 404 problem - Please try a valid route
 
+2020.12.24, 15:03:49.0779 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.25, 07:09:46.0527 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.25, 07:11:26.0143 UTC -> Error : Error - Problem find movie
+
+2020.12.25, 07:13:37.0157 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.25, 07:27:18.0000 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.25, 07:35:08.0264 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.25, 13:53:28.0942 UTC -> Error : Error - Problem find movie
+
+2020.12.25, 13:55:52.0431 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.25, 13:56:02.0339 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.25, 13:56:45.0917 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.25, 14:15:41.0691 UTC -> Error : Error - Problem find movie
+
+2020.12.25, 14:16:19.0718 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.25, 14:17:43.0685 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.25, 14:17:51.0371 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.25, 14:18:13.0432 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.26, 08:59:39.0563 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.26, 09:03:12.0496 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.26, 09:08:17.0284 UTC -> Error : Error - Problem find movie
+
+2020.12.26, 09:08:53.0276 UTC -> Error : Error - Problem find movie
+
+2020.12.26, 09:10:09.0812 UTC -> Error : Error - Problem find movie
+
+2020.12.26, 09:10:37.0252 UTC -> Error : Error - movie not exist
+
+2020.12.26, 09:11:29.0971 UTC -> Error : Error - movie not exist
+
+2020.12.26, 09:11:52.0555 UTC -> Error : Error - Problem find movie
+
+2020.12.26, 09:12:14.0653 UTC -> Error : Error - movie not exist
+
+2020.12.26, 09:12:34.0089 UTC -> Error : Error - movie not exist
+
+2020.12.26, 09:15:45.0472 UTC -> Error : Error - movie not exist
+
+2020.12.26, 09:17:18.0047 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.26, 09:17:40.0287 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.26, 09:18:50.0166 UTC -> Error : Error - Problem find movie
+
+2020.12.26, 09:22:22.0287 UTC -> Error : Error - Problem find movie
+
+2020.12.26, 09:27:49.0596 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.26, 22:29:24.0540 UTC -> Error : Error - Problem find movie
+
+2020.12.26, 22:29:32.0775 UTC -> Error : Error - Problem find movie
+
+2020.12.26, 22:30:04.0799 UTC -> Error : Error - Problem find movie
+
+2020.12.26, 22:32:41.0764 UTC -> Warn : req.body.user_name: susu
+
+2020.12.26, 22:32:41.0766 UTC -> Warn : req.body.password: susu1234
+
+2020.12.26, 22:32:41.0779 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.26, 22:36:49.0755 UTC -> Warn : req.body.user_name: susu
+
+2020.12.26, 22:36:49.0756 UTC -> Warn : req.body.password: susu1234
+
+2020.12.26, 22:36:49.0762 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.26, 22:39:25.0990 UTC -> Warn : req.body.user_name: susu
+
+2020.12.26, 22:39:25.0991 UTC -> Warn : req.body.password: susu1234
+
+2020.12.26, 22:39:25.0992 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.26, 22:43:16.0648 UTC -> Warn : req.body.user_name: susu
+
+2020.12.26, 22:43:16.0657 UTC -> Warn : req.body.password: susu1234
+
+2020.12.26, 22:43:16.0661 UTC -> Warn : req.params.user_name: undefined
+
