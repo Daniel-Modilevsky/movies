@@ -148,3 +148,35 @@
 2020.12.27, 15:18:15.0981 UTC -> Warn : [object Object]
 >>>>>>> be64743255a402382b187e6aa164743ee79f731a
 
+2020.12.27, 15:53:43.0758 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.27, 15:53:46.0119 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.27, 15:53:59.0488 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.27, 15:55:48.0700 UTC -> Error : Error - Missing Params - can not complete valis creation without (description & creationBy & commentOn) params
+
+2020.12.27, 15:56:14.0958 UTC -> Error : Error - Missing Params - can not complete valis creation without (description & creationBy & commentOn) params
+
+2020.12.27, 15:58:01.0303 UTC -> Error : Error - Faild Create new Comment : ReferenceError: description is not defined
+
+2020.12.27, 15:58:38.0318 UTC -> Error : Error - Missing Params - can not complete valis creation without (description & creationBy & commentOn) params
+
+2020.12.27, 15:59:58.0915 UTC -> Error : Error - Missing Params - can not complete valis creation without (description & creationBy & commentOn) params
+
+2020.12.27, 16:00:25.0029 UTC -> Error : Error - Missing Params - can not complete valis creation without (description & creationBy & commentOn) params
+
+2020.12.27, 16:01:05.0487 UTC -> Error : Error - Faild Create new Comment : CastError: Cast to ObjectId failed for value "{ id: 5fe8afc1f13e9b3f50f742bf }" at path "_id" for model "Comment"
+
+2020.12.27, 16:13:52.0596 UTC -> Error : Error - Faild Create new Comment : CastError: Cast to ObjectId failed for value "{ id: undefined }" at path "_id" for model "Comment"
+
+2020.12.27, 16:14:31.0488 UTC -> Error : Error - Faild Create new Comment : CastError: Cast to ObjectId failed for value "{ id: '5fe8b2e7a8a52c21803f715d' }" at path "_id" for model "Comment"
+
+2020.12.27, 16:15:20.0146 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.27, 16:16:06.0082 UTC -> Error : Error - Faild Create new Comment : CastError: Cast to ObjectId failed for value "{ id: '5fe8b346a8a52c21803f715e' }" at path "_id" for model "Comment"
+
+2020.12.27, 16:18:13.0871 UTC -> Error : Error - Faild Create new Comment : CastError: Cast to ObjectId failed for value "{ id: '5fe8b3c5311d9336789d06ce' }" at path "_id" for model "Comment"
+
+2020.12.27, 20:42:59.0759 UTC -> Error : Error - Faild Search comments of movie : TypeError: utils.populate: invalid path. Expected string. Got typeof `object`
+

@@ -52,12 +52,12 @@ const getComment = async function(req, res){
 const createComment = async function(req, res){
     try{
         logger.info('createComment');
-        if(!req.body.description || !req.body.creationBy || !req.body.commentOn){
-            logger.error('Error - Missing Params - can not complete valis creation without (description & creationBy & commentOn) params');
-            return res.status(400).send('Error - Missing Params - can not complete valis creation without (description & creationBy & commentOn) params');
+        if(!req.body.description || !req.body.creationBy || !req.body.commentOn ||  !req.body.creationByName){
+            logger.error('Error - Missing Params - can not complete valid creation without (description & creationBy & commentOn & creationByName) params');
+            return res.status(400).send('Error - Missing Params - can not complete valid creation without (description & creationBy & commentOn & creationByName) params');
         }
-        let newComment = { id: mongoose.Types.ObjectId(), description: req.body.description, creationBy: req.body.creationBy, commentOn:req.body.creationBy  };
-        const comment = await Comment.findById({id:newComment.id});
+        let newComment = new Comment({ _id: mongoose.Types.ObjectId(), description: req.body.description, creationBy: req.body.creationBy, commentOn:req.body.commentOn  });
+        const comment = await Comment.findOne({_id : newComment._id});
         if(!comment){
             newComment.save();
             logger.info(`Success - Created New Comment ${newComment}`);
@@ -113,15 +113,17 @@ const findUserComments = async function(req, res){
 };
 const findMoviesCommented = async function(req,res){
     try{
-        const movies = await User.find({_id: req.params.id})
-                                 .populate({path: 'comment', model: 'Comment', select: 'createdBy', popluate : {
-                                            path: 'movie', model: 'Movie', select: 'commentOn'}});
-        logger.info(movies);
-        return res.status(200).json({message});
+       /* const comments = await Comment.find({_id: req.params.id})
+                                 .populate({path: 'movie', model: 'Movie', select: 'commentOn'});*/
+        logger.debug(req.params.id);
+        const comments = await Comment.find().populate({path: 'movie', model: 'Movie', commentOn: req.params.id})
+        logger.info(`founded ${comments.length} comments of the movie`);
+        //logger.info(comments);
+        return res.status(200).json({comments});
     }
-    catch{
-        message = `Error - Faild Search movies of ${user.user_name} comments`;
-            logger.error(`${message} : ${err}`);
+    catch(error){
+        message = `Error - Faild Search comments of movie`;
+            logger.error(`${message} : ${error}`);
             return res.status(400).json(message);
     }
 };
