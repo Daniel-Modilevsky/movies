@@ -8,8 +8,13 @@ const config = {
     CS: process.env.CS,
     DB_USER: process.env.DB_USER,
     DB_PASS: process.env.DB_PASS,
-    OPTIONS: process.env.options
+    OPTIONS: process.env.options,
+    URL_ID: process.env.urlIMDBid,
+    URL_FILM: process.env.urlIMDBFilm,
+    X_KEY: process.env.xrapidapikey,
+    X_HOST: process.env.xrapidapihost
 }
+
 
 // not changed variable 
 // const consts = {
