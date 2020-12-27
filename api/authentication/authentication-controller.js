@@ -64,12 +64,12 @@ const login = async function (req, res) {
             res.status(401).json({ message });
         }
         else {
-            if (!bcrypt.compareSync(profile.password, newUser.password)) {  
+            if (bcrypt.compareSync(newUser.password,profile.password)) {  
                 message = "Success - User Loged in";
                 logger.info(message);
                 logger.info(profile);
                 logger.debug('sended');
-                res.status(200).json({ profile });         
+                res.status(200).json({ profile });      
             }
             else { 
                 message = "Error - User Unauthorized Access";
