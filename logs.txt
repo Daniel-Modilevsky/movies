@@ -128,6 +128,7 @@
 
 2020.12.26, 22:43:16.0661 UTC -> Warn : req.params.user_name: undefined
 
+<<<<<<< HEAD
 2020.12.27, 15:16:17.0515 UTC -> Error : Error - Problem find movie
 
 2020.12.27, 15:18:47.0886 UTC -> Error : Error - Problem find movie
@@ -141,4 +142,9 @@
 2020.12.27, 15:20:43.0811 UTC -> Error : Error - Problem find movie
 
 2020.12.27, 15:21:14.0282 UTC -> Error : Error - Problem find movie
+=======
+2020.12.27, 15:17:50.0367 UTC -> Warn : [object Object]
+
+2020.12.27, 15:18:15.0981 UTC -> Warn : [object Object]
+>>>>>>> be64743255a402382b187e6aa164743ee79f731a
 

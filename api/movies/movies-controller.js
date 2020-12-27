@@ -5,6 +5,8 @@ const Movie = require('../movies/movies-model');
 const upload = require('../../lib/images');
 const fs = require('fs');
 const axios = require("axios").default;
+const { query } = require('express');
+const url = require('url');
 
 
 
@@ -147,9 +149,10 @@ const getByCategory = async function(req, res){
 
 const IMDB = async function(req, res) {
     let test;
+    let name = req.query.name;
     let options = {
         method: 'GET',
-        url: `${config.URL_ID}/avengers`,
+        url: `${config.URL_ID}/${name}`,
         headers: {
             'x-rapidapi-key': config.X_KEY,
             'x-rapidapi-host': config.X_HOST
@@ -160,7 +163,7 @@ const IMDB = async function(req, res) {
         const data = response.data;
         const id = data.titles[0].id;
         test = id;
-        logger.info(test);
+        //logger.info(test);
     }).catch(function(error) {
         console.error(error);
     });
@@ -176,7 +179,7 @@ const IMDB = async function(req, res) {
 
     await axios.request(options2).then(function(response) {
         const data = response.data;
-        console.log(data);
+        //console.log(data);
         return res.status(200).json({ data });
     }).catch(function(error) {
         console.error(error);
