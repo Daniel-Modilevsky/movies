@@ -4,6 +4,8 @@ const config = require('../../config/config-default');
 const Movie = require('../movies/movies-model');
 const upload = require('../../lib/images');
 const fs = require('fs');
+const axios = require("axios").default;
+
 
 
 const middlewareMovietId = async function(req, res, next){
@@ -143,4 +145,46 @@ const getByCategory = async function(req, res){
     catch (error) {return res.status(400).json({error});}
 }
 
-module.exports =  { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, middlewareMovietId, findUserMovies, getByCategory};
+const IMDB = async function(req, res) {
+    let test;
+    let options = {
+        method: 'GET',
+        url: 'https://imdb-internet-movie-database-unofficial.p.rapidapi.com/search/avengers',
+        headers: {
+            'x-rapidapi-key': '98d79968ffmsh82f75e319da0eb7p1fe380jsn763a2426105e',
+            'x-rapidapi-host': 'imdb-internet-movie-database-unofficial.p.rapidapi.com'
+        }
+    };
+
+    await axios.request(options).then(function(response) {
+        const data = response.data;
+        const id = data.titles[0].id;
+        test = id;
+        logger.info(test);
+    }).catch(function(error) {
+        console.error(error);
+    });
+
+    let options2 = {
+        method: 'GET',
+        url: `https://imdb-internet-movie-database-unofficial.p.rapidapi.com/film/${test}`,
+        headers: {
+            'x-rapidapi-key': '98d79968ffmsh82f75e319da0eb7p1fe380jsn763a2426105e',
+            'x-rapidapi-host': 'imdb-internet-movie-database-unofficial.p.rapidapi.com'
+        }
+    };
+
+    await axios.request(options2).then(function(response) {
+        const data = response.data;
+        console.log(data);
+        //logger.info(response.data);
+        //logger.info(JSON.stringify(data));
+        return res.status(200).json({ data });
+    }).catch(function(error) {
+        console.error(error);
+    });
+}
+
+
+
+module.exports =  { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, middlewareMovietId, findUserMovies, getByCategory ,IMDB};

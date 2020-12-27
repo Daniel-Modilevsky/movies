@@ -1,5 +1,5 @@
 const express = require('express');
-const { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, middlewareMovietId, findUserMovies, getByCategory } = require('./movies-controller');
+const { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, middlewareMovietId, findUserMovies, getByCategory ,IMDB} = require('./movies-controller');
 let router = express.Router();
 const upload = require('../../lib/images');
 
@@ -7,7 +7,7 @@ const upload = require('../../lib/images');
 //router.get('/api/movies/:id', findUserMovies);
 
 router.get('/api/categiries/:categoryName', getByCategory); 
-
+router.get('/api/movies/IMDB/', IMDB);
 
 //Routes
 router.get('/api/movies/', getAllmovies)
