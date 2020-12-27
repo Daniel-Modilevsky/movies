@@ -152,13 +152,13 @@ const IMDB = async function(req, res) {
     let name = req.query.name;
     let options = {
         method: 'GET',
-        url: `https://imdb-internet-movie-database-unofficial.p.rapidapi.com/search/${name}`,
+        url: `https:`${config.URL_ID}/${name}`,
         headers: {
-            'x-rapidapi-key': '98d79968ffmsh82f75e319da0eb7p1fe380jsn763a2426105e',
-            'x-rapidapi-host': 'imdb-internet-movie-database-unofficial.p.rapidapi.com'
+            'x-rapidapi-key': config.X_KEY,
+            'x-rapidapi-host': config.X_HOST
         }
     };
-
+  
     await axios.request(options).then(function(response) {
         const data = response.data;
         const id = data.titles[0].id;
@@ -170,10 +170,10 @@ const IMDB = async function(req, res) {
 
     let options2 = {
         method: 'GET',
-        url: `https://imdb-internet-movie-database-unofficial.p.rapidapi.com/film/${test}`,
+        url: `${config.URL_FILM}/${test}`,
         headers: {
-            'x-rapidapi-key': '98d79968ffmsh82f75e319da0eb7p1fe380jsn763a2426105e',
-            'x-rapidapi-host': 'imdb-internet-movie-database-unofficial.p.rapidapi.com'
+            'x-rapidapi-key': config.X_KEY,
+            'x-rapidapi-host': config.X_HOST
         }
     };
 
