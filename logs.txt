@@ -504,3 +504,63 @@
 2020.12.28, 14:05:01.0738 UTC -> Error : You went into a 404 problem - Please try a valid route
 >>>>>>> b396e63cf9d160e73db8be37ccc016436c1fe68d
 
+2020.12.28, 19:31:37.0134 UTC -> Error : Error - Problem find movie
+
+2020.12.28, 19:31:37.0160 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:33:57.0161 UTC -> Error : Error - Problem find movie
+
+2020.12.28, 19:33:57.0164 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:38:57.0471 UTC -> Error : Error - Problem find movie
+
+2020.12.28, 19:38:57.0482 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:39:47.0799 UTC -> Error : Error - Problem find movie
+
+2020.12.28, 19:39:47.0815 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:40:36.0132 UTC -> Error : Error - Problem find movie
+
+2020.12.28, 19:40:36.0173 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:41:59.0225 UTC -> Error : Error - Problem find movie
+
+2020.12.28, 19:41:59.0249 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:42:19.0841 UTC -> Error : Error - Problem find movie
+
+2020.12.28, 19:42:19.0845 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:42:57.0685 UTC -> Error : Error - Problem find movie
+
+2020.12.28, 19:42:57.0699 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:43:48.0559 UTC -> Error : Error - Problem find movie
+
+2020.12.28, 19:43:48.0564 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:45:17.0545 UTC -> Error : Error - Problem find movie
+
+2020.12.28, 19:45:17.0549 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:46:04.0884 UTC -> Error : Error - Problem find movie
+
+2020.12.28, 19:46:04.0888 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:52:32.0053 UTC -> Error : Error - Problem find movie
+
+2020.12.28, 19:52:32.0057 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:57:47.0281 UTC -> Error : Error - Problem find movie
+
+2020.12.28, 19:57:47.0292 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 20:02:42.0005 UTC -> Error : Error - Problem find movie
+
+2020.12.28, 20:02:42.0024 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 20:03:07.0152 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 20:03:07.0149 UTC -> Error : Error - Problem find movie
+
