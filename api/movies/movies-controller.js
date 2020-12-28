@@ -187,6 +187,9 @@ const IMDB = async function(req, res) {
     });
 }
 
+//Stupid Russian
+
+//Stupid Russian2
 
 
 module.exports =  { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, middlewareMovietId, findUserMovies, getByCategory ,IMDB};
