@@ -6,7 +6,7 @@ const upload = require('../../lib/images');
 
 //router.get('/api/movies/:id', findUserMovies);
 
-router.get('/api/categiries/:categoryName', getByCategory); 
+router.get('/api/categories/:categoryName', getByCategory); 
 router.get('/api/movies/IMDB/', IMDB);
 
 //Routes
