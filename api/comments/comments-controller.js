@@ -52,11 +52,11 @@ const getComment = async function(req, res){
 const createComment = async function(req, res){
     try{
         logger.info('createComment');
-        if(!req.body.description || !req.body.creationBy || !req.body.commentOn ||  !req.body.creationByName){
+        if(!req.body.description || !req.body.creationBy || !req.body.commentOn ||  !req.body.creationByName ){
             logger.error('Error - Missing Params - can not complete valid creation without (description & creationBy & commentOn & creationByName) params');
             return res.status(400).send('Error - Missing Params - can not complete valid creation without (description & creationBy & commentOn & creationByName) params');
         }
-        let newComment = new Comment({ _id: mongoose.Types.ObjectId(), description: req.body.description, creationBy: req.body.creationBy, commentOn:req.body.commentOn  });
+        let newComment = new Comment({ _id: mongoose.Types.ObjectId(), description: req.body.description, creationBy: req.body.creationBy, commentOn:req.body.commentOn, creationByName:req.body.creationByName  });
         const comment = await Comment.findOne({_id : newComment._id});
         if(!comment){
             newComment.save();
@@ -113,12 +113,8 @@ const findUserComments = async function(req, res){
 };
 const findMoviesCommented = async function(req,res){
     try{
-       /* const comments = await Comment.find({_id: req.params.id})
-                                 .populate({path: 'movie', model: 'Movie', select: 'commentOn'});*/
-        logger.debug(req.params.id);
-        const comments = await Comment.find().populate({path: 'movie', model: 'Movie', commentOn: req.params.id})
+        const comments = await Comment.find({commentOn:req.params.id});
         logger.info(`founded ${comments.length} comments of the movie`);
-        //logger.info(comments);
         return res.status(200).json({comments});
     }
     catch(error){

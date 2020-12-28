@@ -180,3 +180,41 @@
 
 2020.12.27, 20:42:59.0759 UTC -> Error : Error - Faild Search comments of movie : TypeError: utils.populate: invalid path. Expected string. Got typeof `object`
 
+2020.12.27, 21:21:25.0260 UTC -> Error : Error - Faild Search comments of movie : TypeError: Comment.populated is not a function
+
+2020.12.27, 21:25:08.0219 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.28, 06:11:06.0049 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.28, 10:17:00.0662 UTC -> Warn : req.body.user_name: susu
+
+2020.12.28, 10:17:00.0665 UTC -> Warn : req.body.password: דודו1234
+
+2020.12.28, 10:17:00.0678 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.28, 10:17:00.0984 UTC -> Error : Error - User Unauthorized Access
+
+2020.12.28, 10:17:04.0272 UTC -> Warn : req.body.user_name: susu
+
+2020.12.28, 10:17:04.0273 UTC -> Warn : req.body.password: דודו123
+
+2020.12.28, 10:17:04.0279 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.28, 10:17:04.0589 UTC -> Error : Error - User Unauthorized Access
+
+2020.12.28, 18:06:11.0980 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.28, 18:10:42.0250 UTC -> Error : Error - Faild Create new movie : CastError: Cast to Number failed for value "{ _id: undefined }" at path "_id" for model "poplar"
+
+2020.12.28, 18:27:09.0111 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.28, 18:27:16.0645 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.28, 18:27:43.0468 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.28, 18:38:24.0345 UTC -> Error : Error - Faild Create new movie : CastError: Cast to Number failed for value "{ _id: undefined }" at path "_id" for model "poplar"
+
+2020.12.28, 18:39:15.0265 UTC -> Error : Error - Faild Create new movie : CastError: Cast to Number failed for value "{ _id: undefined }" at path "_id" for model "poplar"
+
+2020.12.28, 18:40:33.0868 UTC -> Error : Error - Faild Create new movie : CastError: Cast to Number failed for value "{ _id: undefined }" at path "_id" for model "poplar"
+
