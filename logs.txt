@@ -180,3 +180,287 @@
 
 2020.12.27, 20:42:59.0759 UTC -> Error : Error - Faild Search comments of movie : TypeError: utils.populate: invalid path. Expected string. Got typeof `object`
 
+2020.12.28, 09:33:23.0316 UTC -> Error : Error - Problem find movie
+
+2020.12.28, 10:01:37.0325 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:02:33.0135 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:04:13.0090 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:07:44.0672 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:09:44.0186 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:11:33.0230 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:12:10.0776 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:12:10.0778 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:16:35.0191 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:16:35.0188 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:17:31.0128 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:17:31.0130 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:17:52.0781 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:17:52.0782 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:18:14.0718 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:18:14.0721 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:19:08.0576 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:19:08.0578 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:19:08.0578 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:19:36.0585 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:19:36.0586 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:19:36.0587 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:21:00.0519 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:21:00.0520 UTC -> Warn : undefined
+
+2020.12.28, 10:21:00.0521 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:21:00.0521 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:21:52.0561 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:21:52.0562 UTC -> Warn : undefined
+
+2020.12.28, 10:21:52.0563 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:21:52.0560 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:24:14.0209 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:24:14.0211 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:25:09.0908 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:25:09.0908 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:26:57.0742 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:26:57.0743 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:26:57.0744 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:27:58.0615 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:27:58.0619 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:27:58.0622 UTC -> Warn : object
+
+2020.12.28, 10:27:58.0620 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:27:58.0624 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:31:53.0334 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:31:53.0337 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:31:53.0345 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:31:53.0350 UTC -> Warn : ["Action , Crime, Thriller"]
+
+2020.12.28, 10:31:53.0354 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:31:53.0364 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:31:53.0349 UTC -> Warn : ["Action , Crime, Thriller"]
+
+2020.12.28, 10:33:19.0211 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:33:19.0213 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:33:19.0213 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:33:19.0215 UTC -> Warn : ["Action , Crime, Thriller"]
+
+2020.12.28, 10:33:19.0216 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:33:19.0216 UTC -> Warn : ["Action , Crime, Thriller"]
+
+2020.12.28, 10:33:19.0219 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:34:39.0913 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:34:39.0916 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:34:39.0919 UTC -> Warn : ["Action , Crime, Thriller"]
+
+2020.12.28, 10:34:39.0919 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:34:39.0922 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:34:39.0924 UTC -> Error : ["Action 
+
+2020.12.28, 10:34:39.0922 UTC -> Warn : ["Action , Crime, Thriller"]
+
+2020.12.28, 10:34:39.0930 UTC -> Error :  Crime
+
+2020.12.28, 10:34:39.0931 UTC -> Error :  Thriller"]
+
+2020.12.28, 10:47:25.0672 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:47:25.0671 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:47:25.0675 UTC -> Warn : ["Action, Crime, Thriller"]
+
+2020.12.28, 10:47:25.0670 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:47:25.0676 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:47:25.0681 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:47:25.0674 UTC -> Warn : ["Action , Crime, Thriller"]
+
+2020.12.28, 10:47:58.0000 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:47:57.0999 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:47:58.0002 UTC -> Warn : ["Action , Crime, Thriller"]
+
+2020.12.28, 10:47:58.0001 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:47:58.0003 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:47:58.0003 UTC -> Warn : ["Action,Crime, Thriller"]
+
+2020.12.28, 10:47:58.0009 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:49:34.0898 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:49:34.0900 UTC -> Warn : ["Action , Crime, Thriller"]
+
+2020.12.28, 10:49:34.0900 UTC -> Warn : ["Action,Crime, Thriller"]
+
+2020.12.28, 10:49:34.0901 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:49:34.0903 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:51:16.0948 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:51:16.0953 UTC -> Warn : ["Action , Crime, Thriller"]
+
+2020.12.28, 10:51:16.0957 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:51:16.0954 UTC -> Warn : ["Action , Crime, Thriller"]
+
+2020.12.28, 10:51:16.0956 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:51:17.0248 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:51:17.0259 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:51:17.0260 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:51:17.0256 UTC -> Warn : ["Action , Crime, Thriller"]
+
+2020.12.28, 10:51:17.0256 UTC -> Warn : ["Action , Crime, Thriller"]
+
+2020.12.28, 10:52:20.0000 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:52:20.0002 UTC -> Warn : ["Action " Crime, Thriller"]
+
+2020.12.28, 10:52:20.0002 UTC -> Warn : ["Action , Crime, Thriller"]
+
+2020.12.28, 10:52:20.0006 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:52:20.0005 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:52:48.0977 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:52:48.0982 UTC -> Warn : ["Action " " Crime, Thriller"]
+
+2020.12.28, 10:52:48.0983 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:52:48.0978 UTC -> Warn : ["Action , Crime, Thriller"]
+
+2020.12.28, 10:52:48.0985 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:53:58.0485 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:53:58.0487 UTC -> Warn : ["Action " " Crime, Thriller"]
+
+2020.12.28, 10:53:58.0493 UTC -> Error : [
+
+2020.12.28, 10:53:58.0486 UTC -> Warn : ["Action , Crime, Thriller"]
+
+2020.12.28, 10:53:58.0493 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:53:58.0496 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:54:16.0866 UTC -> Warn : ["Action , Crime, Thriller"]
+
+2020.12.28, 10:54:16.0862 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:54:16.0869 UTC -> Error : "
+
+2020.12.28, 10:54:16.0870 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:54:16.0873 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:54:16.0867 UTC -> Warn : ["Action " " Crime, Thriller"]
+
+2020.12.28, 10:54:51.0330 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:54:51.0335 UTC -> Warn : ["Action " ," Crime, Thriller"]
+
+2020.12.28, 10:54:51.0337 UTC -> Error : [
+
+2020.12.28, 10:54:51.0338 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:54:51.0340 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:54:51.0331 UTC -> Warn : ["Action , Crime, Thriller"]
+
+2020.12.28, 10:55:23.0282 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 10:55:23.0285 UTC -> Warn : ["Action" ," Crime, Thriller"]
+
+2020.12.28, 10:55:23.0287 UTC -> Error : [
+
+2020.12.28, 10:55:23.0287 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 10:55:23.0288 UTC -> Error : Action , Crime, Thriller
+
+2020.12.28, 10:55:23.0284 UTC -> Warn : ["Action , Crime, Thriller"]
+
+2020.12.28, 11:07:13.0190 UTC -> Warn : ["Action , Crime, Thriller"]
+
+2020.12.28, 11:07:13.0188 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
+
+2020.12.28, 11:07:13.0191 UTC -> Warn : ["Action" ," Crime, Thriller"]
+
+2020.12.28, 11:07:13.0193 UTC -> Error : [
+
+2020.12.28, 11:07:13.0193 UTC -> Warn : Action , Crime, Thriller
+
+2020.12.28, 11:09:40.0477 UTC -> Warn : { categories: [ 'Action', 'Crime', 'Thriller' ] }
+
+2020.12.28, 11:09:40.0479 UTC -> Warn : ["Action","Crime","Thriller"]
+
+2020.12.28, 11:09:40.0480 UTC -> Warn : Action,Crime,Thriller
+
+2020.12.28, 11:10:12.0072 UTC -> Warn : ["Action","Crime","Thriller"]
+
+2020.12.28, 11:10:12.0070 UTC -> Warn : { categories: [ 'Action', 'Crime', 'Thriller' ] }
+
+2020.12.28, 11:10:12.0072 UTC -> Warn : Action
+
+2020.12.28, 14:04:03.0456 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.28, 14:05:01.0738 UTC -> Error : You went into a 404 problem - Please try a valid route
+

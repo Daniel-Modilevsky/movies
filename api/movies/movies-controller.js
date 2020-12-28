@@ -152,7 +152,8 @@ const IMDB = async function(req, res) {
     let name = req.query.name;
     let options = {
         method: 'GET',
-        url: `${config.URL_ID}/${name}`,
+        url: `https:${config.URL_ID}/${name}`,
+        //url: `${config.URL_ID}/${name}`,
         headers: {
             'x-rapidapi-key': config.X_KEY,
             'x-rapidapi-host': config.X_HOST
