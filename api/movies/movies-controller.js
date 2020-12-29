@@ -150,9 +150,11 @@ const getByCategory = async function(req, res){
 const IMDB = async function(req, res) {
     let test;
     let name = req.query.name;
+    console.log(name);
     let options = {
         method: 'GET',
         url: `${config.URL_ID}/${name}`,
+        //url: `${config.URL_ID}/${name}`,
         headers: {
             'x-rapidapi-key': config.X_KEY,
             'x-rapidapi-host': config.X_HOST
@@ -163,11 +165,11 @@ const IMDB = async function(req, res) {
         const data = response.data;
         const id = data.titles[0].id;
         test = id;
-
+        logger.warn(test);
     }).catch(function(error) {
         console.error(error);
     });
-
+    logger.info(`${config.URL_FILM}/${test}`);
     let options2 = {
         method: 'GET',
         url: `${config.URL_FILM}/${test}`,
@@ -180,8 +182,9 @@ const IMDB = async function(req, res) {
     await axios.request(options2).then(function(response) {
         const data = response.data;
         console.log(data);
-        res.status(200).json({ data });
+        //res.status(200).json({ data });
         //return res.status(200).json({ data });
+        return res.status(200).json({ data });
     }).catch(function(error) {
         console.error(error);
     });

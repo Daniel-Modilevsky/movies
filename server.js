@@ -3,8 +3,8 @@ const app = require('./lib/express');
 const logger = require('./lib/logs');
 const config = require('./config/config-default');
 const { initConnection } = require('./lib/mongoose');
-
+const port = process.env.PORT || 8080;
 initConnection();
 
 const server = http.createServer(app);
-server.listen(config.PORT, () => logger.info(`Lisining to Server : ${config.PORT}`));
+server.listen(port , () => logger.info(`Lisining to Server : ${port}`));
