@@ -23,6 +23,7 @@
     "fs": "0.0.1-security",
     "glob": "^7.1.6",
     "helmet": "^4.2.0",
+    "heroku": "^7.47.6",
     "http": "0.0.1-security",
     "log-to-file": "^2.0.2",
     "moment": "^2.29.1",

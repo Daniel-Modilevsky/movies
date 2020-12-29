@@ -1,566 +1,210 @@
-2020.12.22, 07:17:54.0115 UTC -> Error : Error - Faild Create new movie : TypeError: Cannot read property 'image' of undefined
+2020.12.29, 06:13:31.0280 UTC -> Error : Error - Problem find movie
 
-2020.12.22, 07:19:55.0416 UTC -> Error : Error - Faild Create new movie : CastError: Cast to ObjectId failed for value "{ id: 5fe19e1b9ba52f2e74667564 }" at path "_id" for model "movie"
+2020.12.29, 06:13:31.0304 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.22, 07:20:49.0638 UTC -> Error : Error - Faild Create new movie : CastError: Cast to ObjectId failed for value "{ id: undefined }" at path "_id" for model "movie"
+2020.12.29, 06:15:55.0966 UTC -> Error : Error - Problem find movie
 
-2020.12.22, 07:21:26.0782 UTC -> Error : Error - Faild Create new movie : TypeError: newMovie.save is not a function
+2020.12.29, 06:15:55.0975 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.22, 07:25:59.0466 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:16:42.0320 UTC -> Error : Error - Problem find movie
 
-2020.12.22, 07:57:11.0457 UTC -> Error : Error - Faild Create new movie : TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2020.12.29, 06:16:42.0330 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.22, 17:41:35.0246 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:17:55.0236 UTC -> Error : Error - Problem find movie
 
-2020.12.23, 17:07:08.0275 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:17:55.0240 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.23, 17:07:15.0060 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:21:23.0797 UTC -> Error : Error - Problem find movie
 
-2020.12.23, 17:07:21.0026 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:21:23.0805 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.23, 17:07:26.0715 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:22:09.0130 UTC -> Error : Error - Problem find movie
 
-2020.12.23, 18:18:02.0441 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:22:11.0455 UTC -> Error : Error - Problem find movie
 
-2020.12.23, 18:18:08.0689 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:22:11.0480 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.23, 18:24:44.0133 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:22:18.0115 UTC -> Error : Error - Problem find movie
 
-2020.12.23, 18:24:46.0961 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:22:18.0120 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.23, 18:25:11.0189 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:22:20.0180 UTC -> Error : Error - Problem find movie
 
-2020.12.23, 18:25:22.0693 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:22:20.0196 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.23, 18:25:25.0429 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:22:21.0135 UTC -> Error : Error - Problem find movie
 
-2020.12.23, 18:26:43.0649 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:22:21.0151 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.24, 15:03:49.0779 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:22:22.0102 UTC -> Error : Error - Problem find movie
 
-2020.12.25, 07:09:46.0527 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:22:22.0117 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.25, 07:11:26.0143 UTC -> Error : Error - Problem find movie
+2020.12.29, 06:22:23.0067 UTC -> Error : Error - Problem find movie
 
-2020.12.25, 07:13:37.0157 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:22:23.0086 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.25, 07:27:18.0000 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:23:05.0368 UTC -> Error : Error - Problem find movie
 
-2020.12.25, 07:35:08.0264 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:23:05.0386 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.25, 13:53:28.0942 UTC -> Error : Error - Problem find movie
+2020.12.29, 06:25:54.0462 UTC -> Error : Error - Problem find movie
 
-2020.12.25, 13:55:52.0431 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:25:54.0495 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.25, 13:56:02.0339 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:26:18.0816 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.25, 13:56:45.0917 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:26:18.0800 UTC -> Error : Error - Problem find movie
 
-2020.12.25, 14:15:41.0691 UTC -> Error : Error - Problem find movie
+2020.12.29, 06:26:31.0415 UTC -> Error : Error - Problem find movie
 
-2020.12.25, 14:16:19.0718 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:26:31.0429 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.25, 14:17:43.0685 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:26:53.0843 UTC -> Error : Error - Problem find movie
 
-2020.12.25, 14:17:51.0371 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:26:53.0874 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.25, 14:18:13.0432 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:26:56.0385 UTC -> Error : Error - Problem find movie
 
-2020.12.26, 08:59:39.0563 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:26:56.0388 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.26, 09:03:12.0496 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:27:10.0636 UTC -> Error : Error - Problem find movie
 
-2020.12.26, 09:08:17.0284 UTC -> Error : Error - Problem find movie
+2020.12.29, 06:27:10.0685 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.26, 09:08:53.0276 UTC -> Error : Error - Problem find movie
+2020.12.29, 06:27:47.0308 UTC -> Error : Error - Problem find movie
 
-2020.12.26, 09:10:09.0812 UTC -> Error : Error - Problem find movie
+2020.12.29, 06:27:47.0322 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.26, 09:10:37.0252 UTC -> Error : Error - movie not exist
+2020.12.29, 06:28:04.0169 UTC -> Error : Error - Problem find movie
 
-2020.12.26, 09:11:29.0971 UTC -> Error : Error - movie not exist
+2020.12.29, 06:28:04.0185 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.26, 09:11:52.0555 UTC -> Error : Error - Problem find movie
+2020.12.29, 06:28:11.0080 UTC -> Error : Error - Problem find movie
 
-2020.12.26, 09:12:14.0653 UTC -> Error : Error - movie not exist
+2020.12.29, 06:28:11.0164 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.26, 09:12:34.0089 UTC -> Error : Error - movie not exist
+2020.12.29, 06:29:29.0253 UTC -> Error : Error - Problem find movie
 
-2020.12.26, 09:15:45.0472 UTC -> Error : Error - movie not exist
+2020.12.29, 06:29:29.0290 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.26, 09:17:18.0047 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:29:35.0895 UTC -> Error : Error - Problem find movie
 
-2020.12.26, 09:17:40.0287 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:29:35.0922 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.26, 09:18:50.0166 UTC -> Error : Error - Problem find movie
+2020.12.29, 06:30:03.0410 UTC -> Error : Error - Problem find movie
 
-2020.12.26, 09:22:22.0287 UTC -> Error : Error - Problem find movie
+2020.12.29, 06:30:03.0423 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.26, 09:27:49.0596 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 06:33:26.0220 UTC -> Error : Error - Problem find movie
 
-2020.12.26, 22:29:24.0540 UTC -> Error : Error - Problem find movie
+2020.12.29, 06:33:26.0273 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.26, 22:29:32.0775 UTC -> Error : Error - Problem find movie
+2020.12.29, 06:33:28.0007 UTC -> Error : Error - Problem find movie
 
-2020.12.26, 22:30:04.0799 UTC -> Error : Error - Problem find movie
+2020.12.29, 06:33:28.0023 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.26, 22:32:41.0764 UTC -> Warn : req.body.user_name: susu
+2020.12.29, 06:33:29.0925 UTC -> Error : Error - Problem find movie
 
-2020.12.26, 22:32:41.0766 UTC -> Warn : req.body.password: susu1234
+2020.12.29, 06:33:29.0953 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.26, 22:32:41.0779 UTC -> Warn : req.params.user_name: undefined
+2020.12.29, 08:25:52.0357 UTC -> Error : Error - Problem find movie
 
-2020.12.26, 22:36:49.0755 UTC -> Warn : req.body.user_name: susu
+2020.12.29, 08:25:52.0366 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.26, 22:36:49.0756 UTC -> Warn : req.body.password: susu1234
+2020.12.29, 08:25:55.0536 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.26, 22:36:49.0762 UTC -> Warn : req.params.user_name: undefined
+2020.12.29, 08:25:58.0529 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.26, 22:39:25.0990 UTC -> Warn : req.body.user_name: susu
+2020.12.29, 08:26:01.0509 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.26, 22:39:25.0991 UTC -> Warn : req.body.password: susu1234
+2020.12.29, 08:26:04.0513 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.26, 22:39:25.0992 UTC -> Warn : req.params.user_name: undefined
+2020.12.29, 08:26:07.0513 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.26, 22:43:16.0648 UTC -> Warn : req.body.user_name: susu
+2020.12.29, 08:26:10.0511 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.26, 22:43:16.0657 UTC -> Warn : req.body.password: susu1234
+2020.12.29, 08:26:13.0513 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.26, 22:43:16.0661 UTC -> Warn : req.params.user_name: undefined
+2020.12.29, 08:26:16.0515 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-<<<<<<< HEAD
-2020.12.27, 15:16:17.0515 UTC -> Error : Error - Problem find movie
+2020.12.29, 08:26:19.0509 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.27, 15:18:47.0886 UTC -> Error : Error - Problem find movie
+2020.12.29, 08:26:22.0529 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.27, 15:19:01.0094 UTC -> Error : Error - Problem find movie
+2020.12.29, 08:26:25.0512 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.27, 15:20:22.0951 UTC -> Error : Error - Problem find movie
+2020.12.29, 08:26:28.0509 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.27, 15:20:28.0117 UTC -> Error : Error - Problem find movie
+2020.12.29, 08:26:31.0517 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.27, 15:20:43.0811 UTC -> Error : Error - Problem find movie
+2020.12.29, 08:26:34.0511 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.27, 15:21:14.0282 UTC -> Error : Error - Problem find movie
-=======
-2020.12.27, 15:17:50.0367 UTC -> Warn : [object Object]
+2020.12.29, 08:27:49.0793 UTC -> Error : Error - Problem find movie
 
-2020.12.27, 15:18:15.0981 UTC -> Warn : [object Object]
->>>>>>> be64743255a402382b187e6aa164743ee79f731a
+2020.12.29, 08:27:49.0801 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.27, 15:53:43.0758 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 08:27:52.0983 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.27, 15:53:46.0119 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 08:27:56.0037 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.27, 15:53:59.0488 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 08:27:58.0982 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.27, 15:55:48.0700 UTC -> Error : Error - Missing Params - can not complete valis creation without (description & creationBy & commentOn) params
+2020.12.29, 08:28:01.0979 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.27, 15:56:14.0958 UTC -> Error : Error - Missing Params - can not complete valis creation without (description & creationBy & commentOn) params
+2020.12.29, 08:28:05.0003 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.27, 15:58:01.0303 UTC -> Error : Error - Faild Create new Comment : ReferenceError: description is not defined
+2020.12.29, 08:28:08.0051 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.27, 15:58:38.0318 UTC -> Error : Error - Missing Params - can not complete valis creation without (description & creationBy & commentOn) params
+2020.12.29, 08:28:11.0053 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.27, 15:59:58.0915 UTC -> Error : Error - Missing Params - can not complete valis creation without (description & creationBy & commentOn) params
+2020.12.29, 08:28:14.0117 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.27, 16:00:25.0029 UTC -> Error : Error - Missing Params - can not complete valis creation without (description & creationBy & commentOn) params
+2020.12.29, 08:28:17.0062 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.27, 16:01:05.0487 UTC -> Error : Error - Faild Create new Comment : CastError: Cast to ObjectId failed for value "{ id: 5fe8afc1f13e9b3f50f742bf }" at path "_id" for model "Comment"
+2020.12.29, 08:28:20.0057 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.27, 16:13:52.0596 UTC -> Error : Error - Faild Create new Comment : CastError: Cast to ObjectId failed for value "{ id: undefined }" at path "_id" for model "Comment"
+2020.12.29, 08:28:23.0078 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.27, 16:14:31.0488 UTC -> Error : Error - Faild Create new Comment : CastError: Cast to ObjectId failed for value "{ id: '5fe8b2e7a8a52c21803f715d' }" at path "_id" for model "Comment"
+2020.12.29, 08:28:26.0077 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.27, 16:15:20.0146 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 08:28:29.0066 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.27, 16:16:06.0082 UTC -> Error : Error - Faild Create new Comment : CastError: Cast to ObjectId failed for value "{ id: '5fe8b346a8a52c21803f715e' }" at path "_id" for model "Comment"
+2020.12.29, 08:28:32.0051 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.27, 16:18:13.0871 UTC -> Error : Error - Faild Create new Comment : CastError: Cast to ObjectId failed for value "{ id: '5fe8b3c5311d9336789d06ce' }" at path "_id" for model "Comment"
+2020.12.29, 08:28:35.0056 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-2020.12.27, 20:42:59.0759 UTC -> Error : Error - Faild Search comments of movie : TypeError: utils.populate: invalid path. Expected string. Got typeof `object`
+2020.12.29, 08:28:38.0055 UTC -> Error : You went into a 404 problem - Please try a valid route
 
-<<<<<<< HEAD
-2020.12.27, 21:21:25.0260 UTC -> Error : Error - Faild Search comments of movie : TypeError: Comment.populated is not a function
+2020.12.29, 08:28:40.0805 UTC -> Error : Error - Problem find movie
 
-2020.12.27, 21:25:08.0219 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 08:28:40.0809 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.28, 06:11:06.0049 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 08:28:51.0476 UTC -> Error : Error - Problem find movie
 
-2020.12.28, 10:17:00.0662 UTC -> Warn : req.body.user_name: susu
+2020.12.29, 08:29:56.0531 UTC -> Error : Error - Problem find movie
 
-2020.12.28, 10:17:00.0665 UTC -> Warn : req.body.password: דודו1234
+2020.12.29, 08:29:56.0542 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.28, 10:17:00.0678 UTC -> Warn : req.params.user_name: undefined
+2020.12.29, 08:30:07.0140 UTC -> Error : Error - Problem find movie
 
-2020.12.28, 10:17:00.0984 UTC -> Error : Error - User Unauthorized Access
+2020.12.29, 08:30:07.0154 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.28, 10:17:04.0272 UTC -> Warn : req.body.user_name: susu
+2020.12.29, 08:30:19.0098 UTC -> Error : Error - Problem find movie
 
-2020.12.28, 10:17:04.0273 UTC -> Warn : req.body.password: דודו123
+2020.12.29, 08:30:19.0102 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.28, 10:17:04.0279 UTC -> Warn : req.params.user_name: undefined
+2020.12.29, 08:30:25.0685 UTC -> Error : Error - Problem find movie
 
-2020.12.28, 10:17:04.0589 UTC -> Error : Error - User Unauthorized Access
+2020.12.29, 08:30:27.0629 UTC -> Error : Error - Problem find movie
 
-2020.12.28, 18:06:11.0980 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 08:30:27.0634 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.28, 18:10:42.0250 UTC -> Error : Error - Faild Create new movie : CastError: Cast to Number failed for value "{ _id: undefined }" at path "_id" for model "poplar"
+2020.12.29, 08:30:40.0296 UTC -> Error : Error - Problem find movie
 
-2020.12.28, 18:27:09.0111 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 08:30:40.0302 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
-2020.12.28, 18:27:16.0645 UTC -> Error : You went into a 404 problem - Please try a valid route
+2020.12.29, 08:32:11.0467 UTC -> Error : Error - Problem find movie
 
-2020.12.28, 18:27:43.0468 UTC -> Error : You went into a 404 problem - Please try a valid route
-
-2020.12.28, 18:38:24.0345 UTC -> Error : Error - Faild Create new movie : CastError: Cast to Number failed for value "{ _id: undefined }" at path "_id" for model "poplar"
-
-2020.12.28, 18:39:15.0265 UTC -> Error : Error - Faild Create new movie : CastError: Cast to Number failed for value "{ _id: undefined }" at path "_id" for model "poplar"
-
-2020.12.28, 18:40:33.0868 UTC -> Error : Error - Faild Create new movie : CastError: Cast to Number failed for value "{ _id: undefined }" at path "_id" for model "poplar"
-=======
-2020.12.28, 09:33:23.0316 UTC -> Error : Error - Problem find movie
-
-2020.12.28, 10:01:37.0325 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:02:33.0135 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:04:13.0090 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:07:44.0672 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:09:44.0186 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:11:33.0230 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:12:10.0776 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:12:10.0778 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:16:35.0191 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:16:35.0188 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:17:31.0128 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:17:31.0130 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:17:52.0781 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:17:52.0782 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:18:14.0718 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:18:14.0721 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:19:08.0576 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:19:08.0578 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:19:08.0578 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:19:36.0585 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:19:36.0586 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:19:36.0587 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:21:00.0519 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:21:00.0520 UTC -> Warn : undefined
-
-2020.12.28, 10:21:00.0521 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:21:00.0521 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:21:52.0561 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:21:52.0562 UTC -> Warn : undefined
-
-2020.12.28, 10:21:52.0563 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:21:52.0560 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:24:14.0209 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:24:14.0211 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:25:09.0908 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:25:09.0908 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:26:57.0742 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:26:57.0743 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:26:57.0744 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:27:58.0615 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:27:58.0619 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:27:58.0622 UTC -> Warn : object
-
-2020.12.28, 10:27:58.0620 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:27:58.0624 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:31:53.0334 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:31:53.0337 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:31:53.0345 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:31:53.0350 UTC -> Warn : ["Action , Crime, Thriller"]
-
-2020.12.28, 10:31:53.0354 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:31:53.0364 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:31:53.0349 UTC -> Warn : ["Action , Crime, Thriller"]
-
-2020.12.28, 10:33:19.0211 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:33:19.0213 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:33:19.0213 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:33:19.0215 UTC -> Warn : ["Action , Crime, Thriller"]
-
-2020.12.28, 10:33:19.0216 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:33:19.0216 UTC -> Warn : ["Action , Crime, Thriller"]
-
-2020.12.28, 10:33:19.0219 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:34:39.0913 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:34:39.0916 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:34:39.0919 UTC -> Warn : ["Action , Crime, Thriller"]
-
-2020.12.28, 10:34:39.0919 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:34:39.0922 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:34:39.0924 UTC -> Error : ["Action 
-
-2020.12.28, 10:34:39.0922 UTC -> Warn : ["Action , Crime, Thriller"]
-
-2020.12.28, 10:34:39.0930 UTC -> Error :  Crime
-
-2020.12.28, 10:34:39.0931 UTC -> Error :  Thriller"]
-
-2020.12.28, 10:47:25.0672 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:47:25.0671 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:47:25.0675 UTC -> Warn : ["Action, Crime, Thriller"]
-
-2020.12.28, 10:47:25.0670 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:47:25.0676 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:47:25.0681 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:47:25.0674 UTC -> Warn : ["Action , Crime, Thriller"]
-
-2020.12.28, 10:47:58.0000 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:47:57.0999 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:47:58.0002 UTC -> Warn : ["Action , Crime, Thriller"]
-
-2020.12.28, 10:47:58.0001 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:47:58.0003 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:47:58.0003 UTC -> Warn : ["Action,Crime, Thriller"]
-
-2020.12.28, 10:47:58.0009 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:49:34.0898 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:49:34.0900 UTC -> Warn : ["Action , Crime, Thriller"]
-
-2020.12.28, 10:49:34.0900 UTC -> Warn : ["Action,Crime, Thriller"]
-
-2020.12.28, 10:49:34.0901 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:49:34.0903 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:51:16.0948 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:51:16.0953 UTC -> Warn : ["Action , Crime, Thriller"]
-
-2020.12.28, 10:51:16.0957 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:51:16.0954 UTC -> Warn : ["Action , Crime, Thriller"]
-
-2020.12.28, 10:51:16.0956 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:51:17.0248 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:51:17.0259 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:51:17.0260 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:51:17.0256 UTC -> Warn : ["Action , Crime, Thriller"]
-
-2020.12.28, 10:51:17.0256 UTC -> Warn : ["Action , Crime, Thriller"]
-
-2020.12.28, 10:52:20.0000 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:52:20.0002 UTC -> Warn : ["Action " Crime, Thriller"]
-
-2020.12.28, 10:52:20.0002 UTC -> Warn : ["Action , Crime, Thriller"]
-
-2020.12.28, 10:52:20.0006 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:52:20.0005 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:52:48.0977 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:52:48.0982 UTC -> Warn : ["Action " " Crime, Thriller"]
-
-2020.12.28, 10:52:48.0983 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:52:48.0978 UTC -> Warn : ["Action , Crime, Thriller"]
-
-2020.12.28, 10:52:48.0985 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:53:58.0485 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:53:58.0487 UTC -> Warn : ["Action " " Crime, Thriller"]
-
-2020.12.28, 10:53:58.0493 UTC -> Error : [
-
-2020.12.28, 10:53:58.0486 UTC -> Warn : ["Action , Crime, Thriller"]
-
-2020.12.28, 10:53:58.0493 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:53:58.0496 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:54:16.0866 UTC -> Warn : ["Action , Crime, Thriller"]
-
-2020.12.28, 10:54:16.0862 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:54:16.0869 UTC -> Error : "
-
-2020.12.28, 10:54:16.0870 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:54:16.0873 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:54:16.0867 UTC -> Warn : ["Action " " Crime, Thriller"]
-
-2020.12.28, 10:54:51.0330 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:54:51.0335 UTC -> Warn : ["Action " ," Crime, Thriller"]
-
-2020.12.28, 10:54:51.0337 UTC -> Error : [
-
-2020.12.28, 10:54:51.0338 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:54:51.0340 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:54:51.0331 UTC -> Warn : ["Action , Crime, Thriller"]
-
-2020.12.28, 10:55:23.0282 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 10:55:23.0285 UTC -> Warn : ["Action" ," Crime, Thriller"]
-
-2020.12.28, 10:55:23.0287 UTC -> Error : [
-
-2020.12.28, 10:55:23.0287 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 10:55:23.0288 UTC -> Error : Action , Crime, Thriller
-
-2020.12.28, 10:55:23.0284 UTC -> Warn : ["Action , Crime, Thriller"]
-
-2020.12.28, 11:07:13.0190 UTC -> Warn : ["Action , Crime, Thriller"]
-
-2020.12.28, 11:07:13.0188 UTC -> Warn : { categories: [ 'Action , Crime, Thriller' ] }
-
-2020.12.28, 11:07:13.0191 UTC -> Warn : ["Action" ," Crime, Thriller"]
-
-2020.12.28, 11:07:13.0193 UTC -> Error : [
-
-2020.12.28, 11:07:13.0193 UTC -> Warn : Action , Crime, Thriller
-
-2020.12.28, 11:09:40.0477 UTC -> Warn : { categories: [ 'Action', 'Crime', 'Thriller' ] }
-
-2020.12.28, 11:09:40.0479 UTC -> Warn : ["Action","Crime","Thriller"]
-
-2020.12.28, 11:09:40.0480 UTC -> Warn : Action,Crime,Thriller
-
-2020.12.28, 11:10:12.0072 UTC -> Warn : ["Action","Crime","Thriller"]
-
-2020.12.28, 11:10:12.0070 UTC -> Warn : { categories: [ 'Action', 'Crime', 'Thriller' ] }
-
-2020.12.28, 11:10:12.0072 UTC -> Warn : Action
-
-2020.12.28, 14:04:03.0456 UTC -> Error : You went into a 404 problem - Please try a valid route
-
-2020.12.28, 14:05:01.0738 UTC -> Error : You went into a 404 problem - Please try a valid route
->>>>>>> b396e63cf9d160e73db8be37ccc016436c1fe68d
-
-2020.12.28, 19:31:37.0134 UTC -> Error : Error - Problem find movie
-
-2020.12.28, 19:31:37.0160 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
-
-2020.12.28, 19:33:57.0161 UTC -> Error : Error - Problem find movie
-
-2020.12.28, 19:33:57.0164 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
-
-2020.12.28, 19:38:57.0471 UTC -> Error : Error - Problem find movie
-
-2020.12.28, 19:38:57.0482 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
-
-2020.12.28, 19:39:47.0799 UTC -> Error : Error - Problem find movie
-
-2020.12.28, 19:39:47.0815 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
-
-2020.12.28, 19:40:36.0132 UTC -> Error : Error - Problem find movie
-
-2020.12.28, 19:40:36.0173 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
-
-2020.12.28, 19:41:59.0225 UTC -> Error : Error - Problem find movie
-
-2020.12.28, 19:41:59.0249 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
-
-2020.12.28, 19:42:19.0841 UTC -> Error : Error - Problem find movie
-
-2020.12.28, 19:42:19.0845 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
-
-2020.12.28, 19:42:57.0685 UTC -> Error : Error - Problem find movie
-
-2020.12.28, 19:42:57.0699 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
-
-2020.12.28, 19:43:48.0559 UTC -> Error : Error - Problem find movie
-
-2020.12.28, 19:43:48.0564 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
-
-2020.12.28, 19:45:17.0545 UTC -> Error : Error - Problem find movie
-
-2020.12.28, 19:45:17.0549 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
-
-2020.12.28, 19:46:04.0884 UTC -> Error : Error - Problem find movie
-
-2020.12.28, 19:46:04.0888 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
-
-2020.12.28, 19:52:32.0053 UTC -> Error : Error - Problem find movie
-
-2020.12.28, 19:52:32.0057 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
-
-2020.12.28, 19:57:47.0281 UTC -> Error : Error - Problem find movie
-
-2020.12.28, 19:57:47.0292 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
-
-2020.12.28, 20:02:42.0005 UTC -> Error : Error - Problem find movie
-
-2020.12.28, 20:02:42.0024 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
-
-2020.12.28, 20:03:07.0152 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
-
-2020.12.28, 20:03:07.0149 UTC -> Error : Error - Problem find movie
+2020.12.29, 08:32:11.0472 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 

@@ -150,9 +150,10 @@ const getByCategory = async function(req, res){
 const IMDB = async function(req, res) {
     let test;
     let name = req.query.name;
+    console.log(name);
     let options = {
         method: 'GET',
-        url: `https:${config.URL_ID}/${name}`,
+        url: `${config.URL_ID}/${name}`,
         //url: `${config.URL_ID}/${name}`,
         headers: {
             'x-rapidapi-key': config.X_KEY,
@@ -164,11 +165,11 @@ const IMDB = async function(req, res) {
         const data = response.data;
         const id = data.titles[0].id;
         test = id;
-        //logger.info(test);
+        logger.warn(test);
     }).catch(function(error) {
         console.error(error);
     });
-
+    logger.info(`${config.URL_FILM}/${test}`);
     let options2 = {
         method: 'GET',
         url: `${config.URL_FILM}/${test}`,
@@ -180,16 +181,12 @@ const IMDB = async function(req, res) {
 
     await axios.request(options2).then(function(response) {
         const data = response.data;
-        //console.log(data);
+        console.log(data);
         return res.status(200).json({ data });
     }).catch(function(error) {
         console.error(error);
     });
 }
-
-//Stupid Russian
-
-//Stupid Russian2
 
 
 module.exports =  { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, middlewareMovietId, findUserMovies, getByCategory ,IMDB};
