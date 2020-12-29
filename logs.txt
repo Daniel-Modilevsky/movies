@@ -208,3 +208,19 @@
 
 2020.12.29, 08:32:11.0472 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
+2020.12.29, 12:38:45.0520 UTC -> Error : Error - Problem find movie
+
+2020.12.29, 12:38:45.0541 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.29, 12:38:53.0348 UTC -> Warn : req.body.user_name: susu
+
+2020.12.29, 12:38:53.0349 UTC -> Warn : req.body.password: susu123
+
+2020.12.29, 12:38:53.0358 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 12:38:53.0928 UTC -> Error : Error - User Unauthorized Access
+
+2020.12.29, 12:39:03.0352 UTC -> Error : Error - Problem find movie
+
+2020.12.29, 12:39:03.0385 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+

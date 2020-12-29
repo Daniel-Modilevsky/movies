@@ -12,7 +12,8 @@ const config = {
     URL_ID: process.env.urlIMDBid,
     URL_FILM: process.env.urlIMDBFilm,
     X_KEY: process.env.xrapidapikey,
-    X_HOST: process.env.xrapidapihost
+    X_HOST: process.env.xrapidapihost,
+    MONGOLAB_URI: process.env.MONGOLAB_URI
 }
 
 
