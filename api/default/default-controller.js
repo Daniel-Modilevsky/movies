@@ -10,8 +10,8 @@ module.exports = {
         return res.status(error.status || 500).json({ message: "Error - You went into a 500 problem - Please try a diffrent senerio" });
     },
     index : (req, res) => {
-        logger.info('Hey and welcome to first Ex!');
-        return res.status(200).json({ message: 'Hey and welcome to first Ex!' });
+        logger.info('Hey and welcome to Smart Flix!');
+        return res.status(200).json({ message: 'Hey and welcome to Smart Flix!' });
     },
     routeInvalid : (req, res) => {
         logger.error('You went into a 404 problem - Please try a valid route');

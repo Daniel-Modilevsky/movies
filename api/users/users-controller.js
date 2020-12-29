@@ -5,7 +5,7 @@ const User = require('./users-model');
 let message = '';
 
 
-const middlewareId = async function(req, res, next) {
+const checkId = async function(req, res, next) {
     try{
         const { id } = req.params;
         const user = await User.findById({id});
@@ -42,7 +42,7 @@ const getUser = async function(req, res){
     try{
         const user = await User.findById({ id: req.params.id });
         logger.info(`user detail is: ${user.user_name}`);
-        return res.status(200).json({message});
+        return res.status(200).json({user});
     }
     catch (error) {return res.status(400).json({error});}
 };
@@ -69,4 +69,4 @@ const deleteUser = async function(req, res){
     }
     catch (error) {return res.status(400).json({error});}
 };
-module.exports =  { getAllUsers, getUser, updateUser, deleteUser, middlewareId };
+module.exports =  { getAllUsers, getUser, updateUser, deleteUser, checkId };

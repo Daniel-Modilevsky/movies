@@ -10,7 +10,7 @@ const url = require('url');
 
 
 
-const middlewareMovietId = async function(req, res, next){
+const checkMovietId = async function(req, res, next){
     try{
         const movie = await Movie.findOne({ _id: req.params.id });
         if(!movie){
@@ -130,9 +130,9 @@ const findUserMovies = async function(req, res){
         logger.info(movies);
         return res.status(200).json({message});
     }
-    catch{
+    catch(error){
         message = `Error - Faild Search  ${user.user_name} movies`;
-        logger.error(`${message} : ${err}`);
+        logger.error(`${message} : ${error}`);
         return res.status(400).json(message);
     }
 };
@@ -190,4 +190,4 @@ const IMDB = async function(req, res) {
 
 
 
-module.exports =  { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, middlewareMovietId, findUserMovies, getByCategory ,IMDB};
+module.exports =  { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, checkMovietId, findUserMovies, getByCategory ,IMDB};

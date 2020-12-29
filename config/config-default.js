@@ -3,7 +3,6 @@ dotenv.config();
 
 // enviroment vatiable
 const config = {
-    //PORT: process.env.port,
     LOGFILE: process.env.logFile,
     CS: process.env.CS,
     DB_USER: process.env.DB_USER,
@@ -16,10 +15,5 @@ const config = {
     MONGOLAB_URI: process.env.MONGOLAB_URI
 }
 
-
-// not changed variable 
-// const consts = {
-    // sizeArray = 20;
-//}  
 
 module.exports = config;

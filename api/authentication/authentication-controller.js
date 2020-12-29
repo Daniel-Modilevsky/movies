@@ -9,7 +9,7 @@ function validateEmail(email) {
     const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
 };
-const middlewareEmail = function (req, res, next) {
+const checkEmail = function (req, res, next) {
     const queryObject = url.parse(req.url,true).query;
     if (req.body.email) {
         if (validateEmail(req.body.email)) {
@@ -24,11 +24,6 @@ const middlewareEmail = function (req, res, next) {
 };
 const signup = async function (req, res) {
     try{
-        logger.warn(`req.body.user_name: ${req.body.user_name}`);
-        logger.warn(`req.body.password: ${req.body.password}`);
-        logger.warn(`req.body.email: ${req.body.email}`);
-        logger.warn(`req.body.password2: ${req.body.password2}`);
-
         if (!req.body.user_name || !req.body.password || !req.body.email || !req.body.password2) {
             message = "Error - Missing Params -(user_name, password, email) are required params and can not be empty";
             logger.error(message);
@@ -52,7 +47,6 @@ const login = async function (req, res) {
     try{
         logger.warn(`req.body.user_name: ${req.body.user_name}`);
         logger.warn(`req.body.password: ${req.body.password}`);
-
         logger.warn(`req.params.user_name: ${req.params.user_name}`);
         
         const newUser = { user_name : req.body.user_name, password : req.body.password };
@@ -84,12 +78,13 @@ const login = async function (req, res) {
         return res.status(401).json({ message });
     }
 };
+
+
 const logout = function(req, res){
-    req.logout();
+    //req.logout();
     logger.info("The user just loged off");
-    res.redirect("/"); 
 };
-module.exports = {middlewareEmail, signup, login, logout};
+module.exports = {checkEmail, signup, login, logout};
 
 
 

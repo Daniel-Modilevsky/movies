@@ -7,7 +7,7 @@ const Movie = require('../movies/movies-model');
 
 let message = '';
 
-const middlewareCommentId = async function(req, res, next) {
+const checkCommentId = async function(req, res, next) {
     try{
         const { id } = req.params;
         const comment = await Comment.findById({id});
@@ -45,7 +45,7 @@ const getComment = async function(req, res){
         logger.info('getComment');
         const comment = await Comment.findById({ id: req.params.id });
         logger.info(comment);
-        return res.status(200).json({message});
+        return res.status(200).json({comment});
     }
     catch (error) {return res.status(400).json({error});}
 };
@@ -103,11 +103,11 @@ const findUserComments = async function(req, res){
         const comments = await User.find({_id: req.params.id})
                                  .populate({path: 'comment', model: 'Comment', select: 'createdBy'});
         logger.info(comments);
-        return res.status(200).json({message});
+        return res.status(200).json({comments});
     }
-    catch{
+    catch(error){
         message = `Error - Faild Search  ${user.user_name} comments`;
-        logger.error(`${message} : ${err}`);
+        logger.error(`${message} : ${error}`);
         return res.status(400).json(message);
     }
 };
@@ -124,4 +124,4 @@ const findMoviesCommented = async function(req,res){
     }
 };
 
-module.exports =  { getAllComments, getComment, createComment, updateComment, deleteComment, middlewareCommentId, findUserComments, findMoviesCommented };
+module.exports =  { getAllComments, getComment, createComment, updateComment, deleteComment, checkCommentId, findUserComments, findMoviesCommented };

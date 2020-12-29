@@ -1,10 +1,8 @@
 const express = require('express');
-const { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, middlewareMovietId, findUserMovies, getByCategory ,IMDB} = require('./movies-controller');
+const { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, checkMovietId, getByCategory ,IMDB} = require('./movies-controller');
 let router = express.Router();
 const upload = require('../../lib/images');
 
-
-//router.get('/api/movies/:id', findUserMovies);
 
 router.get('/api/categories/:categoryName', getByCategory); 
 router.get('/api/movies/IMDB/', IMDB);
@@ -12,11 +10,9 @@ router.get('/api/movies/IMDB/', IMDB);
 //Routes
 router.get('/api/movies/', getAllmovies)
       .post('/api/movies/', upload.single('image') ,createMovie);
-router.get('/api/movies/:id', middlewareMovietId, getMovie)
-      .put('/api/movies/:id', middlewareMovietId, updateMovie)
-      .delete('/api/movies/:id',middlewareMovietId, deleteMovie);
+router.get('/api/movies/:id', checkMovietId, getMovie)
+      .put('/api/movies/:id', checkMovietId, updateMovie)
+      .delete('/api/movies/:id',checkMovietId, deleteMovie);
 
-
-// router get by category
 
 module.exports = router;

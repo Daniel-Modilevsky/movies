@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const logger = require('../../lib/logs');
 const config = require('../../config/config-default');
 const Popular = require('../populars/populars-model');
-const axios = require("axios").default;
+//const axios = require("axios").default;
 const { query } = require('express');
 
 
@@ -112,7 +112,6 @@ const deletePopular = async function(req, res){
     }
     catch (error) {return res.status(400).json({error});}
 };
-
 
 
 module.exports =  { getAllpopulars, getPopular, createPopular, updatePopular, deletePopular, checkPopulartId};
