@@ -182,6 +182,8 @@ const IMDB = async function(req, res) {
     await axios.request(options2).then(function(response) {
         const data = response.data;
         console.log(data);
+        //res.status(200).json({ data });
+        //return res.status(200).json({ data });
         return res.status(200).json({ data });
     }).catch(function(error) {
         console.error(error);

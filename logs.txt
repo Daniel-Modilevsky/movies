@@ -224,6 +224,7 @@
 
 2020.12.29, 12:39:03.0385 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
 
+<<<<<<< HEAD
 2020.12.29, 15:45:45.0229 UTC -> Error : You went into a 404 problem - Please try a valid route
 
 2020.12.29, 15:45:50.0288 UTC -> Error : Error - User Unauthorized Access
@@ -359,4 +360,665 @@
 2020.12.29, 16:30:08.0009 UTC -> Error : You went into a 404 problem - Please try a valid route
 
 2020.12.29, 16:30:09.0610 UTC -> Warn : tt0478970
+=======
+2020.12.28, 19:33:29.0168 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:33:30.0412 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:33:34.0373 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:33:35.0705 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:33:36.0834 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:33:38.0624 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:33:39.0612 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:33:40.0013 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:33:40.0400 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:33:40.0819 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:33:41.0440 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:33:41.0874 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:33:42.0297 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:33:42.0760 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.28, 19:34:46.0853 UTC -> Warn : req.body.user_name: susu
+
+2020.12.28, 19:34:46.0855 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.28, 19:34:46.0854 UTC -> Warn : req.body.password: susu1234
+
+2020.12.28, 19:35:37.0889 UTC -> Warn : req.body.user_name: susu
+
+2020.12.28, 19:35:37.0890 UTC -> Warn : req.body.password: susu1234
+
+2020.12.28, 19:35:37.0891 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.28, 19:40:56.0041 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.28, 19:40:56.0041 UTC -> Warn : req.body.password: 123
+
+2020.12.28, 19:40:56.0040 UTC -> Warn : req.body.user_name: dudu
+
+2020.12.28, 19:40:56.0201 UTC -> Error : Error - User not exists
+
+2020.12.28, 19:41:02.0579 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.28, 19:41:02.0578 UTC -> Warn : req.body.user_name: susu
+
+2020.12.28, 19:41:02.0578 UTC -> Warn : req.body.password: susu1234
+
+2020.12.28, 19:47:47.0075 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.28, 19:47:47.0065 UTC -> Warn : req.body.user_name: 
+
+2020.12.28, 19:47:47.0066 UTC -> Warn : req.body.password: 
+
+2020.12.28, 19:47:47.0081 UTC -> Warn : req.body.user_name: 
+
+2020.12.28, 19:47:47.0082 UTC -> Warn : req.body.password: 
+
+2020.12.28, 19:47:47.0082 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.28, 19:47:47.0226 UTC -> Error : Error - User not exists
+
+2020.12.28, 19:47:47.0369 UTC -> Error : Error - User not exists
+
+2020.12.28, 19:48:22.0935 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.28, 19:48:22.0933 UTC -> Warn : req.body.user_name: susu
+
+2020.12.28, 19:48:22.0934 UTC -> Warn : req.body.password: susu1234
+
+2020.12.28, 19:48:22.0944 UTC -> Warn : req.body.user_name: susu
+
+2020.12.28, 19:48:22.0945 UTC -> Warn : req.body.password: susu1234
+
+2020.12.28, 19:48:22.0945 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.28, 19:48:44.0618 UTC -> Warn : req.body.user_name: susu
+
+2020.12.28, 19:48:44.0620 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.28, 19:48:44.0619 UTC -> Warn : req.body.password: susu1234
+
+2020.12.28, 19:48:44.0628 UTC -> Warn : req.body.user_name: susu
+
+2020.12.28, 19:48:44.0628 UTC -> Warn : req.body.password: susu1234
+
+2020.12.28, 19:48:44.0629 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 08:33:21.0846 UTC -> Warn : tt0848228
+
+2020.12.29, 08:34:41.0709 UTC -> Warn : tt0848228
+
+2020.12.29, 08:36:03.0405 UTC -> Warn : tt0848228
+
+2020.12.29, 08:36:55.0489 UTC -> Warn : tt0848228
+
+2020.12.29, 08:37:11.0217 UTC -> Warn : tt0848228
+
+2020.12.29, 08:38:54.0146 UTC -> Warn : tt0848228
+
+2020.12.29, 08:40:05.0029 UTC -> Warn : tt0848228
+
+2020.12.29, 08:42:48.0813 UTC -> Warn : tt0848228
+
+2020.12.29, 08:44:16.0716 UTC -> Warn : tt0848228
+
+2020.12.29, 08:46:03.0999 UTC -> Warn : tt0848228
+
+2020.12.29, 08:46:20.0019 UTC -> Warn : tt0848228
+
+2020.12.29, 08:46:50.0133 UTC -> Warn : tt0848228
+
+2020.12.29, 08:47:22.0466 UTC -> Warn : tt0848228
+
+2020.12.29, 08:48:23.0659 UTC -> Warn : tt0848228
+
+2020.12.29, 08:49:26.0147 UTC -> Warn : tt0848228
+
+2020.12.29, 08:53:51.0298 UTC -> Warn : tt0848228
+
+2020.12.29, 08:54:50.0321 UTC -> Warn : tt0848228
+
+2020.12.29, 08:55:06.0371 UTC -> Warn : tt0848228
+
+2020.12.29, 09:01:32.0493 UTC -> Warn : tt0848228
+
+2020.12.29, 09:01:46.0076 UTC -> Warn : tt0848228
+
+2020.12.29, 09:01:47.0553 UTC -> Warn : tt0848228
+
+2020.12.29, 09:04:01.0868 UTC -> Warn : tt0848228
+
+2020.12.29, 09:04:09.0167 UTC -> Warn : tt0848228
+
+2020.12.29, 09:07:54.0886 UTC -> Warn : tt0848228
+
+2020.12.29, 09:09:56.0887 UTC -> Warn : tt0848228
+
+2020.12.29, 09:09:59.0700 UTC -> Warn : tt0848228
+
+2020.12.29, 09:10:04.0189 UTC -> Warn : tt0848228
+
+2020.12.29, 09:11:37.0909 UTC -> Warn : tt0848228
+
+2020.12.29, 09:11:43.0248 UTC -> Warn : tt0848228
+
+2020.12.29, 09:11:56.0901 UTC -> Warn : tt0848228
+
+2020.12.29, 09:12:03.0002 UTC -> Warn : tt0848228
+
+2020.12.29, 09:12:18.0353 UTC -> Warn : tt0848228
+
+2020.12.29, 09:12:24.0015 UTC -> Warn : tt0848228
+
+2020.12.29, 09:12:29.0945 UTC -> Warn : tt0848228
+
+2020.12.29, 09:12:35.0350 UTC -> Warn : tt0848228
+
+2020.12.29, 09:12:40.0025 UTC -> Warn : tt0848228
+
+2020.12.29, 09:12:46.0043 UTC -> Warn : tt0848228
+
+2020.12.29, 09:12:50.0623 UTC -> Warn : tt0848228
+
+2020.12.29, 09:13:14.0885 UTC -> Warn : tt0848228
+
+2020.12.29, 09:13:19.0145 UTC -> Warn : tt0848228
+
+2020.12.29, 09:13:38.0236 UTC -> Warn : tt0848228
+
+2020.12.29, 09:13:42.0122 UTC -> Warn : tt0848228
+
+2020.12.29, 09:13:47.0450 UTC -> Warn : tt0848228
+
+2020.12.29, 09:13:51.0739 UTC -> Warn : tt0848228
+
+2020.12.29, 09:13:54.0550 UTC -> Warn : tt0848228
+
+2020.12.29, 09:13:59.0180 UTC -> Warn : tt0848228
+
+2020.12.29, 09:14:04.0171 UTC -> Warn : tt0848228
+
+2020.12.29, 09:14:42.0869 UTC -> Warn : tt0848228
+
+2020.12.29, 09:15:01.0061 UTC -> Warn : tt0848228
+
+2020.12.29, 09:17:02.0972 UTC -> Warn : tt0848228
+
+2020.12.29, 09:20:41.0763 UTC -> Warn : tt0848228
+
+2020.12.29, 09:20:46.0565 UTC -> Warn : tt0848228
+
+2020.12.29, 09:20:50.0374 UTC -> Warn : tt0848228
+
+2020.12.29, 09:20:53.0702 UTC -> Warn : tt0848228
+
+2020.12.29, 09:21:10.0528 UTC -> Warn : tt0848228
+
+2020.12.29, 09:22:15.0167 UTC -> Warn : tt0848228
+
+2020.12.29, 09:23:59.0530 UTC -> Warn : tt0848228
+
+2020.12.29, 09:24:03.0749 UTC -> Warn : tt0848228
+
+2020.12.29, 09:25:48.0416 UTC -> Warn : tt0848228
+
+2020.12.29, 09:26:20.0604 UTC -> Warn : tt0848228
+
+2020.12.29, 09:27:34.0699 UTC -> Warn : tt0848228
+
+2020.12.29, 09:28:25.0627 UTC -> Warn : tt0848228
+
+2020.12.29, 09:28:27.0777 UTC -> Warn : tt0848228
+
+2020.12.29, 09:28:30.0407 UTC -> Warn : tt0848228
+
+2020.12.29, 09:28:39.0037 UTC -> Warn : tt0848228
+
+2020.12.29, 09:29:00.0197 UTC -> Warn : tt0848228
+
+2020.12.29, 09:32:07.0439 UTC -> Warn : tt0848228
+
+2020.12.29, 09:32:10.0411 UTC -> Warn : tt0848228
+
+2020.12.29, 09:32:53.0636 UTC -> Warn : tt0848228
+
+2020.12.29, 09:33:02.0857 UTC -> Warn : tt0848228
+
+2020.12.29, 09:33:05.0062 UTC -> Warn : tt0848228
+
+2020.12.29, 09:33:10.0160 UTC -> Warn : tt0848228
+
+2020.12.29, 09:33:22.0630 UTC -> Warn : tt0848228
+
+2020.12.29, 09:33:40.0400 UTC -> Warn : tt0848228
+
+2020.12.29, 09:33:56.0141 UTC -> Warn : tt0848228
+
+2020.12.29, 09:35:32.0688 UTC -> Warn : tt0848228
+
+2020.12.29, 09:35:59.0093 UTC -> Warn : tt0848228
+
+2020.12.29, 09:36:13.0527 UTC -> Warn : tt0848228
+
+2020.12.29, 09:36:19.0191 UTC -> Warn : tt0848228
+
+2020.12.29, 09:36:53.0712 UTC -> Warn : tt0848228
+
+2020.12.29, 09:37:27.0754 UTC -> Warn : tt0848228
+
+2020.12.29, 09:38:13.0718 UTC -> Warn : tt0848228
+
+2020.12.29, 09:38:24.0520 UTC -> Warn : tt0848228
+
+2020.12.29, 09:38:34.0441 UTC -> Warn : tt0848228
+
+2020.12.29, 09:38:37.0055 UTC -> Warn : tt0848228
+
+2020.12.29, 09:38:39.0675 UTC -> Warn : tt0848228
+
+2020.12.29, 09:38:52.0760 UTC -> Warn : tt0848228
+
+2020.12.29, 09:39:08.0082 UTC -> Warn : tt0848228
+
+2020.12.29, 09:40:31.0559 UTC -> Warn : tt0848228
+
+2020.12.29, 09:41:39.0031 UTC -> Warn : tt0848228
+
+2020.12.29, 09:41:59.0840 UTC -> Warn : tt0848228
+
+2020.12.29, 09:42:07.0070 UTC -> Warn : tt0848228
+
+2020.12.29, 09:42:22.0352 UTC -> Warn : tt0848228
+
+2020.12.29, 09:42:35.0216 UTC -> Warn : tt0848228
+
+2020.12.29, 09:42:43.0874 UTC -> Warn : tt0848228
+
+2020.12.29, 09:42:49.0135 UTC -> Warn : tt0848228
+
+2020.12.29, 09:42:52.0086 UTC -> Warn : tt0848228
+
+2020.12.29, 09:43:28.0913 UTC -> Warn : tt0848228
+
+2020.12.29, 09:45:00.0981 UTC -> Warn : tt0848228
+
+2020.12.29, 09:45:15.0509 UTC -> Warn : tt0848228
+
+2020.12.29, 09:45:19.0896 UTC -> Warn : tt0848228
+
+2020.12.29, 09:45:32.0442 UTC -> Warn : tt0848228
+
+2020.12.29, 09:45:51.0979 UTC -> Warn : tt0848228
+
+2020.12.29, 09:48:32.0597 UTC -> Warn : tt0848228
+
+2020.12.29, 09:49:09.0493 UTC -> Warn : tt0848228
+
+2020.12.29, 09:51:08.0753 UTC -> Warn : tt0848228
+
+2020.12.29, 09:51:20.0708 UTC -> Warn : tt0848228
+
+2020.12.29, 10:02:45.0411 UTC -> Warn : tt0848228
+
+2020.12.29, 10:03:01.0930 UTC -> Warn : tt0848228
+
+2020.12.29, 10:03:18.0210 UTC -> Warn : tt0848228
+
+2020.12.29, 10:06:10.0095 UTC -> Warn : tt0848228
+
+2020.12.29, 10:06:26.0604 UTC -> Warn : tt0848228
+
+2020.12.29, 10:06:37.0524 UTC -> Warn : tt0848228
+
+2020.12.29, 10:06:47.0113 UTC -> Warn : tt0848228
+
+2020.12.29, 10:07:12.0418 UTC -> Warn : tt0848228
+
+2020.12.29, 10:07:19.0544 UTC -> Warn : tt0848228
+
+2020.12.29, 10:07:28.0890 UTC -> Warn : tt0848228
+
+2020.12.29, 10:07:34.0635 UTC -> Warn : tt0848228
+
+2020.12.29, 10:07:49.0123 UTC -> Warn : tt0848228
+
+2020.12.29, 10:08:17.0341 UTC -> Warn : tt0848228
+
+2020.12.29, 10:08:29.0279 UTC -> Warn : tt0848228
+
+2020.12.29, 10:09:21.0690 UTC -> Warn : tt0848228
+
+2020.12.29, 10:09:42.0888 UTC -> Warn : tt0848228
+
+2020.12.29, 10:10:25.0358 UTC -> Warn : tt0848228
+
+2020.12.29, 10:10:31.0208 UTC -> Warn : tt0848228
+
+2020.12.29, 10:10:37.0406 UTC -> Warn : tt0848228
+
+2020.12.29, 10:10:51.0733 UTC -> Warn : tt0848228
+
+2020.12.29, 10:11:03.0755 UTC -> Warn : tt0848228
+
+2020.12.29, 10:11:25.0182 UTC -> Warn : tt0848228
+
+2020.12.29, 10:13:10.0691 UTC -> Warn : tt0848228
+
+2020.12.29, 10:13:22.0125 UTC -> Warn : tt0848228
+
+2020.12.29, 10:13:55.0759 UTC -> Warn : tt0848228
+
+2020.12.29, 10:14:13.0375 UTC -> Warn : tt0848228
+
+2020.12.29, 10:14:25.0049 UTC -> Warn : tt0848228
+
+2020.12.29, 10:15:11.0257 UTC -> Warn : tt0848228
+
+2020.12.29, 10:15:23.0248 UTC -> Warn : tt0848228
+
+2020.12.29, 10:15:47.0862 UTC -> Warn : tt0848228
+
+2020.12.29, 10:16:08.0112 UTC -> Warn : tt0848228
+
+2020.12.29, 10:16:26.0635 UTC -> Warn : tt0848228
+
+2020.12.29, 10:16:50.0807 UTC -> Warn : tt0848228
+
+2020.12.29, 10:17:05.0163 UTC -> Warn : tt0848228
+
+2020.12.29, 10:20:24.0128 UTC -> Warn : tt0848228
+
+2020.12.29, 10:20:59.0948 UTC -> Warn : tt0848228
+
+2020.12.29, 10:21:21.0730 UTC -> Warn : tt0848228
+
+2020.12.29, 10:30:44.0586 UTC -> Warn : tt11167466
+
+2020.12.29, 10:30:44.0842 UTC -> Warn : tt11167466
+
+2020.12.29, 10:30:47.0541 UTC -> Warn : tt11167466
+
+2020.12.29, 10:30:47.0768 UTC -> Warn : tt11167466
+
+2020.12.29, 10:30:50.0464 UTC -> Warn : tt11167466
+
+2020.12.29, 10:30:50.0660 UTC -> Warn : tt11167466
+
+2020.12.29, 10:30:53.0606 UTC -> Warn : tt11167466
+
+2020.12.29, 10:30:53.0752 UTC -> Warn : tt11167466
+
+2020.12.29, 10:30:56.0582 UTC -> Warn : tt11167466
+
+2020.12.29, 10:30:56.0719 UTC -> Warn : tt11167466
+
+2020.12.29, 10:30:59.0430 UTC -> Warn : tt11167466
+
+2020.12.29, 10:31:02.0377 UTC -> Warn : tt11167466
+
+2020.12.29, 10:31:02.0499 UTC -> Warn : tt11167466
+
+2020.12.29, 10:31:05.0480 UTC -> Warn : tt11167466
+
+2020.12.29, 10:31:05.0538 UTC -> Warn : tt11167466
+
+2020.12.29, 10:31:13.0790 UTC -> Warn : tt0848228
+
+2020.12.29, 10:33:46.0457 UTC -> Warn : tt0848228
+
+2020.12.29, 10:37:46.0666 UTC -> Warn : tt0848228
+
+2020.12.29, 10:37:48.0022 UTC -> Warn : tt0848228
+
+2020.12.29, 10:37:49.0482 UTC -> Warn : tt1436480
+
+2020.12.29, 10:38:24.0781 UTC -> Warn : tt1436480
+
+2020.12.29, 10:38:26.0099 UTC -> Warn : tt0848228
+
+2020.12.29, 10:38:27.0403 UTC -> Warn : tt0848228
+
+2020.12.29, 10:45:13.0935 UTC -> Warn : tt0848228
+
+2020.12.29, 12:02:06.0320 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 12:02:13.0538 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 12:31:15.0499 UTC -> Warn : tt0848228
+
+2020.12.29, 12:33:53.0742 UTC -> Warn : tt0848228
+
+2020.12.29, 12:35:11.0831 UTC -> Warn : tt0848228
+
+2020.12.29, 12:35:30.0620 UTC -> Warn : tt0848228
+
+2020.12.29, 13:03:15.0629 UTC -> Warn : tt0848228
+
+2020.12.29, 13:03:35.0928 UTC -> Warn : req.body.user_name: susu
+
+2020.12.29, 13:03:35.0929 UTC -> Warn : req.body.password: susu1234
+
+2020.12.29, 13:03:35.0929 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 13:03:52.0020 UTC -> Warn : req.body.user_name: susu
+
+2020.12.29, 13:03:52.0021 UTC -> Warn : req.body.password: susu1234
+
+2020.12.29, 13:03:52.0021 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 13:04:26.0335 UTC -> Warn : req.body.user_name: susu
+
+2020.12.29, 13:04:26.0336 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 13:04:26.0336 UTC -> Warn : req.body.password: 123
+
+2020.12.29, 13:04:26.0542 UTC -> Error : Error - User Unauthorized Access
+
+2020.12.29, 13:04:43.0612 UTC -> Warn : req.body.user_name: susu
+
+2020.12.29, 13:04:43.0612 UTC -> Warn : req.body.password: 12
+
+2020.12.29, 13:04:43.0613 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 13:04:43.0849 UTC -> Error : Error - User Unauthorized Access
+
+2020.12.29, 13:04:52.0672 UTC -> Warn : req.body.user_name: susu
+
+2020.12.29, 13:04:52.0673 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 13:04:52.0672 UTC -> Warn : req.body.password: susu1234
+
+2020.12.29, 13:09:00.0033 UTC -> Warn : req.body.user_name: susu
+
+2020.12.29, 13:09:00.0040 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 13:09:00.0034 UTC -> Warn : req.body.password: susu1234
+
+2020.12.29, 13:09:49.0772 UTC -> Warn : req.body.user_name: susu
+
+2020.12.29, 13:09:49.0772 UTC -> Warn : req.body.password: susu1234
+
+2020.12.29, 13:09:49.0773 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 13:10:27.0160 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 13:10:27.0159 UTC -> Warn : req.body.password: 1234
+
+2020.12.29, 13:10:27.0159 UTC -> Warn : req.body.user_name: susu
+
+2020.12.29, 13:10:27.0390 UTC -> Error : Error - User Unauthorized Access
+
+2020.12.29, 13:10:42.0342 UTC -> Warn : req.body.user_name: susu
+
+2020.12.29, 13:10:42.0343 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 13:10:42.0343 UTC -> Warn : req.body.password: 123
+
+2020.12.29, 13:10:42.0582 UTC -> Error : Error - User Unauthorized Access
+
+2020.12.29, 13:11:37.0502 UTC -> Warn : req.body.user_name: susu
+
+2020.12.29, 13:11:37.0503 UTC -> Warn : req.body.password: 1234
+
+2020.12.29, 13:11:37.0503 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 13:11:37.0732 UTC -> Error : Error - User Unauthorized Access
+
+2020.12.29, 13:14:14.0638 UTC -> Warn : req.body.user_name: susu
+
+2020.12.29, 13:14:14.0639 UTC -> Warn : req.body.password: 123
+
+2020.12.29, 13:14:14.0640 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 13:14:14.0847 UTC -> Error : Error - User Unauthorized Access
+
+2020.12.29, 13:14:26.0755 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 13:14:26.0754 UTC -> Warn : req.body.user_name: susu
+
+2020.12.29, 13:14:26.0755 UTC -> Warn : req.body.password: susu1234
+
+2020.12.29, 13:14:34.0815 UTC -> Warn : req.body.password: susu1234
+
+2020.12.29, 13:14:34.0814 UTC -> Warn : req.body.user_name: susu
+
+2020.12.29, 13:14:34.0815 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 13:15:21.0012 UTC -> Warn : req.body.user_name: susu
+
+2020.12.29, 13:15:21.0012 UTC -> Warn : req.body.password: susu1234
+
+2020.12.29, 13:15:21.0012 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 13:16:25.0306 UTC -> Warn : req.body.password: 1234
+
+2020.12.29, 13:16:25.0306 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 13:16:25.0305 UTC -> Warn : req.body.user_name: susu
+
+2020.12.29, 13:16:25.0521 UTC -> Error : Error - User Unauthorized Access
+
+2020.12.29, 13:16:31.0404 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 13:16:31.0403 UTC -> Warn : req.body.password: susu1234
+
+2020.12.29, 13:16:31.0402 UTC -> Warn : req.body.user_name: susu
+
+2020.12.29, 13:17:01.0824 UTC -> Warn : req.body.user_name: susu
+
+2020.12.29, 13:17:01.0826 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 13:17:01.0825 UTC -> Warn : req.body.password: susu123
+
+2020.12.29, 13:17:02.0030 UTC -> Error : Error - User Unauthorized Access
+
+2020.12.29, 13:17:13.0904 UTC -> Warn : req.body.user_name: dany
+
+2020.12.29, 13:17:13.0905 UTC -> Warn : req.body.password: dany
+
+2020.12.29, 13:17:13.0905 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 13:17:14.0054 UTC -> Error : Error - User not exists
+
+2020.12.29, 13:17:53.0241 UTC -> Warn : req.body.password: dany
+
+2020.12.29, 13:17:53.0240 UTC -> Warn : req.body.user_name: dany
+
+2020.12.29, 13:17:53.0241 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 13:17:53.0392 UTC -> Error : Error - User not exists
+
+2020.12.29, 13:18:21.0784 UTC -> Warn : req.body.user_name: susu
+
+2020.12.29, 13:18:21.0785 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 13:18:21.0784 UTC -> Warn : req.body.password: susu1234
+
+2020.12.29, 13:18:54.0145 UTC -> Warn : req.body.user_name: susu
+
+2020.12.29, 13:18:54.0146 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 13:18:54.0145 UTC -> Warn : req.body.password: susu1234
+
+2020.12.29, 13:39:08.0948 UTC -> Warn : req.body.password: susu1234
+
+2020.12.29, 13:39:08.0952 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 13:39:08.0947 UTC -> Warn : req.body.user_name: susu
+
+2020.12.29, 13:40:18.0688 UTC -> Warn : tt0848228
+
+2020.12.29, 13:54:19.0266 UTC -> Error : Error - Problem find movie
+
+2020.12.29, 13:54:19.0271 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.29, 13:54:53.0370 UTC -> Error : Error - Problem find movie
+
+2020.12.29, 13:54:53.0383 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.29, 13:55:01.0744 UTC -> Warn : req.body.password: susu1234
+
+2020.12.29, 13:55:01.0745 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.29, 13:55:01.0744 UTC -> Warn : req.body.user_name: susu
+
+2020.12.29, 13:55:02.0963 UTC -> Error : Error - Problem find movie
+
+2020.12.29, 13:55:02.0969 UTC -> Error : Error - Faild Search comments of movie : CastError: Cast to ObjectId failed for value "null" at path "commentOn" for model "Comment"
+
+2020.12.29, 13:58:16.0393 UTC -> Warn : tt5884052
+
+2020.12.29, 13:59:20.0759 UTC -> Warn : tt5884052
+
+2020.12.29, 13:59:42.0560 UTC -> Warn : tt5884052
+
+2020.12.29, 14:00:05.0896 UTC -> Warn : tt5884052
+
+2020.12.29, 14:02:04.0515 UTC -> Warn : tt5884052
+
+2020.12.29, 14:02:26.0691 UTC -> Warn : tt5884052
+
+2020.12.29, 14:02:41.0607 UTC -> Warn : tt5884052
+
+2020.12.29, 14:03:25.0547 UTC -> Warn : tt5884052
+
+2020.12.29, 14:03:48.0530 UTC -> Warn : tt5884052
+
+2020.12.29, 14:04:08.0124 UTC -> Warn : tt5884052
+
+2020.12.29, 14:04:28.0451 UTC -> Warn : tt5884052
+
+2020.12.29, 14:04:47.0572 UTC -> Warn : tt5884052
+
+2020.12.29, 14:05:27.0451 UTC -> Warn : tt5884052
+
+2020.12.29, 14:06:06.0464 UTC -> Warn : tt5884052
+
+2020.12.29, 14:10:19.0042 UTC -> Warn : tt5884052
+
+2020.12.29, 14:10:19.0444 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 14:11:51.0601 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 14:12:41.0643 UTC -> Warn : tt5884052
+
+2020.12.29, 14:14:08.0564 UTC -> Warn : tt5884052
+
+2020.12.29, 14:15:02.0667 UTC -> Warn : tt5884052
+
+2020.12.29, 14:15:29.0301 UTC -> Warn : tt5884052
+
+2020.12.29, 14:15:36.0260 UTC -> Warn : tt1646971
+>>>>>>> f8dc14788e97fc000af3026e94226527a904ef4a
 
