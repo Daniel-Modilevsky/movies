@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": {
     "name": "Daniel Modilevsky , Jonatan Kubany"
@@ -28,9 +29,10 @@
     "log-to-file": "^2.0.2",
     "moment": "^2.29.1",
     "mongoose": "^5.11.6",
-    "mongoose-auto-increment": "^5.0.1",
     "multer": "^1.4.2",
-    "nodemon": "^2.0.6",
     "url": "^0.11.0"
+  },
+  "devDependencies" : {
+    "nodemon": "^2.0.6"
   }
 }

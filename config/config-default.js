@@ -3,7 +3,7 @@ dotenv.config();
 
 // enviroment vatiable
 const config = {
-    PORT: process.env.port,
+    //PORT: process.env.port,
     LOGFILE: process.env.logFile,
     CS: process.env.CS,
     DB_USER: process.env.DB_USER,

@@ -189,4 +189,5 @@ const IMDB = async function(req, res) {
 }
 
 
+
 module.exports =  { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, middlewareMovietId, findUserMovies, getByCategory ,IMDB};
