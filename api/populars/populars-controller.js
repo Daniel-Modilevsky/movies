@@ -28,9 +28,7 @@ const checkPopulartId = async function(req, res, next){
 };
 const getAllpopulars = async function(req, res){
     try{
-        logger.info('getAllmovies');
         const movies = await Popular.find();
-        logger.info(`founded ${movies.length} movies`);
         return res.status(200).json(movies);
     }
     catch(error){
@@ -41,7 +39,6 @@ const getAllpopulars = async function(req, res){
 };
 const getPopular = async function(req, res){
     try{
-        logger.info('getMovie');
         const movie = await Popular.findOne({ _id: req.params.id });
         logger.info(movie);
         return res.status(200).json({movie});

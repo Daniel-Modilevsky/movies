@@ -45,24 +45,17 @@ const signup = async function (req, res) {
 };
 const login = async function (req, res) {
     try{
-        logger.warn(`req.body.user_name: ${req.body.user_name}`);
-        logger.warn(`req.body.password: ${req.body.password}`);
-        logger.warn(`req.params.user_name: ${req.params.user_name}`);
-        
         const newUser = { user_name : req.body.user_name, password : req.body.password };
         logger.debug(newUser.user_name);
         const profile = await User.findOne({ user_name: newUser.user_name });
         if (!profile) {
             message = "Error - User not exists";
             logger.error(message);
-            res.status(401).json({ message });
+            return res.status(401).json({ message });
         }
         else {
             if (bcrypt.compareSync(newUser.password,profile.password)) {  
-                message = "Success - User Loged in";
-                logger.info(message);
                 logger.info(profile);
-                logger.debug('sended');
                 res.status(200).json({ profile });      
             }
             else { 
@@ -78,8 +71,6 @@ const login = async function (req, res) {
         return res.status(401).json({ message });
     }
 };
-
-
 const logout = function(req, res){
     //req.logout();
     logger.info("The user just loged off");

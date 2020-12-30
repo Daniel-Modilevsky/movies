@@ -15,7 +15,7 @@ const commentSchema = mongoose.Schema({
 
 
 commentSchema.pre('save', next => {
-    logger.info('prepring for save');
+    logger.info('Saving');
     return next();
 });
 

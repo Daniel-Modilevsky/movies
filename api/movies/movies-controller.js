@@ -31,9 +31,7 @@ const checkMovietId = async function(req, res, next){
 };
 const getAllmovies = async function(req, res){
     try{
-        logger.info('getAllmovies');
         const movies = await Movie.find();
-        logger.info(`founded ${movies.length} movies`);
         return res.status(200).json(movies);
     }
     catch(error){
@@ -136,25 +134,19 @@ const findUserMovies = async function(req, res){
         return res.status(400).json(message);
     }
 };
-
 const getByCategory = async function(req, res){
     try{
-        logger.info('getByCategory');
         const movies = await Movie.find({ categories: {$regex: `${req.params.categoryName}`}}).limit(5).sort();
-        logger.info(`founded ${movies.length} movies by ${req.params.categoryName} category`);
         return res.status(200).json(movies);
     }
     catch (error) {return res.status(400).json({error});}
 }
-
 const IMDB = async function(req, res) {
     let test;
     let name = req.query.name;
-    console.log(name);
     let options = {
         method: 'GET',
         url: `${config.URL_ID}/${name}`,
-        //url: `${config.URL_ID}/${name}`,
         headers: {
             'x-rapidapi-key': config.X_KEY,
             'x-rapidapi-host': config.X_HOST
@@ -165,9 +157,8 @@ const IMDB = async function(req, res) {
         const data = response.data;
         const id = data.titles[0].id;
         test = id;
-        logger.warn(test);
     }).catch(function(error) {
-        console.error(error);
+        logger.error(error);
     });
     logger.info(`${config.URL_FILM}/${test}`);
     let options2 = {
@@ -178,18 +169,12 @@ const IMDB = async function(req, res) {
             'x-rapidapi-host': config.X_HOST
         }
     };
-
     await axios.request(options2).then(function(response) {
         const data = response.data;
-        console.log(data);
-        //res.status(200).json({ data });
-        //return res.status(200).json({ data });
         return res.status(200).json({ data });
     }).catch(function(error) {
-        console.error(error);
+        logger.error(error);
     });
 }
-
-
-
 module.exports =  { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, checkMovietId, findUserMovies, getByCategory ,IMDB};
+

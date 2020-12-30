@@ -1022,3 +1022,369 @@
 2020.12.29, 14:15:36.0260 UTC -> Warn : tt1646971
 >>>>>>> f8dc14788e97fc000af3026e94226527a904ef4a
 
+2020.12.29, 19:36:00.0876 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:36:00.0965 UTC -> Error : Error - Problem find movie
+
+2020.12.29, 19:36:00.0986 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:36:08.0615 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:36:08.0728 UTC -> Error : Error - Problem find movie
+
+2020.12.29, 19:36:08.0787 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:36:15.0958 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:36:16.0070 UTC -> Error : Error - Problem find movie
+
+2020.12.29, 19:36:16.0291 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:36:24.0599 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:36:24.0635 UTC -> Error : Error - Problem find movie
+
+2020.12.29, 19:36:24.0981 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:36:27.0350 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:36:27.0486 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:36:29.0160 UTC -> Warn : tt2802144
+
+2020.12.29, 19:36:36.0166 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:36:36.0647 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:36:37.0828 UTC -> Warn : tt2802144
+
+2020.12.29, 19:37:15.0147 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:37:15.0223 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:37:17.0313 UTC -> Warn : tt2802144
+
+2020.12.29, 19:37:40.0630 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:37:40.0991 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:37:42.0284 UTC -> Warn : tt2802144
+
+2020.12.29, 19:38:01.0446 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:38:02.0006 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:38:03.0533 UTC -> Warn : tt2802144
+
+2020.12.29, 19:38:07.0408 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:38:07.0501 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:38:08.0896 UTC -> Warn : tt2802144
+
+2020.12.29, 19:38:38.0545 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:38:38.0627 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:38:40.0200 UTC -> Warn : tt2802144
+
+2020.12.29, 19:38:57.0963 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:38:58.0146 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:38:59.0841 UTC -> Warn : tt2802144
+
+2020.12.29, 19:39:17.0361 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:39:17.0447 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:39:19.0071 UTC -> Warn : tt2802144
+
+2020.12.29, 19:39:19.0992 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:39:20.0313 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:39:21.0646 UTC -> Warn : tt2802144
+
+2020.12.29, 19:39:22.0471 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:39:22.0543 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:39:24.0072 UTC -> Warn : tt2802144
+
+2020.12.29, 19:39:26.0737 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:39:26.0861 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.29, 19:39:28.0449 UTC -> Warn : tt2802144
+
+2020.12.30, 06:09:31.0740 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:09:31.0793 UTC -> Error : Error - Problem find movie
+
+2020.12.30, 06:09:31.0798 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:09:39.0540 UTC -> Warn : req.body.user_name: susu
+
+2020.12.30, 06:09:39.0542 UTC -> Warn : req.body.password: susu123
+
+2020.12.30, 06:09:39.0543 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.30, 06:09:40.0238 UTC -> Error : Error - User Unauthorized Access
+
+2020.12.30, 06:09:44.0004 UTC -> Warn : req.body.user_name: susu
+
+2020.12.30, 06:09:44.0006 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.30, 06:09:44.0005 UTC -> Warn : req.body.password: susu12
+
+2020.12.30, 06:09:44.0477 UTC -> Error : Error - User Unauthorized Access
+
+2020.12.30, 06:10:16.0280 UTC -> Warn : req.body.user_name: susu
+
+2020.12.30, 06:10:16.0281 UTC -> Warn : req.body.password: susu1234
+
+2020.12.30, 06:10:16.0282 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.30, 06:10:17.0113 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:10:17.0157 UTC -> Error : Error - Problem find movie
+
+2020.12.30, 06:10:17.0171 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:11:03.0481 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:11:03.0523 UTC -> Error : Error - Problem find movie
+
+2020.12.30, 06:11:03.0527 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:12:26.0530 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:13:57.0636 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:14:02.0587 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:14:20.0935 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:14:21.0373 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:14:21.0368 UTC -> Error : Error - Problem find movie
+
+2020.12.30, 06:14:31.0324 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:14:31.0732 UTC -> Error : Error - Problem find movie
+
+2020.12.30, 06:14:31.0737 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:15:10.0167 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:15:10.0594 UTC -> Error : Error - Problem find movie
+
+2020.12.30, 06:15:10.0609 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:15:16.0438 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:15:16.0779 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:15:16.0769 UTC -> Error : Error - Problem find movie
+
+2020.12.30, 06:15:40.0429 UTC -> Warn : tt1436480
+
+2020.12.30, 06:16:07.0791 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:16:08.0210 UTC -> Error : Error - Problem find movie
+
+2020.12.30, 06:16:08.0217 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:16:23.0549 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:16:23.0938 UTC -> Error : Error - Problem find movie
+
+2020.12.30, 06:16:23.0944 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:16:33.0913 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:16:34.0354 UTC -> Error : Error - Problem find movie
+
+2020.12.30, 06:16:34.0359 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:16:58.0083 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:16:58.0490 UTC -> Error : Error - Problem find movie
+
+2020.12.30, 06:16:58.0504 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:17:16.0249 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:17:16.0733 UTC -> Error : Error - Problem find movie
+
+2020.12.30, 06:17:16.0740 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:17:42.0110 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:17:42.0411 UTC -> Error : Error - Problem find movie
+
+2020.12.30, 06:17:42.0427 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:19:42.0743 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:19:43.0025 UTC -> Error : Error - Problem find movie
+
+2020.12.30, 06:19:43.0068 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:21:06.0802 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:21:07.0100 UTC -> Error : Error - Problem find movie
+
+2020.12.30, 06:21:07.0126 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:22:15.0749 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:22:15.0940 UTC -> Error : Error - Problem find movie
+
+2020.12.30, 06:22:15.0945 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:22:19.0501 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:22:19.0855 UTC -> Error : Error - Problem find movie
+
+2020.12.30, 06:22:19.0872 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:23:03.0434 UTC -> Error : Error - Problem find movie
+
+2020.12.30, 06:23:03.0448 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:23:30.0707 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:23:31.0359 UTC -> Error : Error - Problem find movie
+
+2020.12.30, 06:23:31.0367 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:23:37.0438 UTC -> Error : Error - Problem find movie
+
+2020.12.30, 06:23:37.0452 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:23:41.0291 UTC -> Error : Error - Problem find movie
+
+2020.12.30, 06:23:41.0296 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:23:42.0185 UTC -> Error : Error - Problem find movie
+
+2020.12.30, 06:23:42.0195 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:25:21.0318 UTC -> Error : Error - Problem find movie
+
+2020.12.30, 06:25:21.0373 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:25:30.0510 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:25:34.0537 UTC -> Warn : tt0478970
+
+2020.12.30, 06:28:25.0589 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:28:28.0201 UTC -> Warn : tt0478970
+
+2020.12.30, 06:31:20.0106 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:31:24.0124 UTC -> Warn : tt0478970
+
+2020.12.30, 06:31:58.0543 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:32:00.0989 UTC -> Warn : tt0478970
+
+2020.12.30, 06:32:08.0242 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:32:10.0403 UTC -> Warn : tt0478970
+
+2020.12.30, 06:32:57.0877 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:33:04.0677 UTC -> Warn : tt0478970
+
+2020.12.30, 06:39:40.0570 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:39:42.0593 UTC -> Warn : tt2802144
+
+2020.12.30, 06:40:32.0254 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:40:34.0207 UTC -> Warn : tt0478970
+
+2020.12.30, 06:41:02.0994 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:41:04.0981 UTC -> Warn : tt0478970
+
+2020.12.30, 06:41:21.0003 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:41:22.0570 UTC -> Warn : tt0478970
+
+2020.12.30, 06:41:25.0470 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:41:27.0249 UTC -> Warn : tt0478970
+
+2020.12.30, 06:41:42.0529 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:41:44.0453 UTC -> Warn : tt0478970
+
+2020.12.30, 06:43:07.0865 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:43:09.0853 UTC -> Warn : tt0478970
+
+2020.12.30, 06:44:41.0904 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:44:43.0854 UTC -> Warn : tt0478970
+
+2020.12.30, 06:45:50.0341 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 06:45:52.0148 UTC -> Warn : tt0478970
+
+2020.12.30, 06:48:03.0817 UTC -> Error : Error - Missing Params - can not complete valid creation without (description & creationBy & commentOn & creationByName) params
+
+2020.12.30, 12:23:59.0658 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 12:25:30.0528 UTC -> Error : Error - Problem find Comment
+
+2020.12.30, 12:25:40.0065 UTC -> Error : Error - Problem find Comment
+
+2020.12.30, 16:04:53.0466 UTC -> Error : Error - Problem find Comment
+
+2020.12.30, 16:05:54.0795 UTC -> Error : Error - Problem find Comment
+
+2020.12.30, 18:19:46.0419 UTC -> Warn : req.body.user_name: susu
+
+2020.12.30, 18:19:46.0422 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.30, 18:19:46.0421 UTC -> Warn : req.body.password: susu1234
+
+2020.12.30, 18:19:51.0241 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 18:20:53.0444 UTC -> Warn : req.body.user_name: susu
+
+2020.12.30, 18:20:53.0445 UTC -> Warn : req.body.password: susu1234
+
+2020.12.30, 18:20:53.0447 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.30, 18:21:03.0752 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 18:42:14.0030 UTC -> Warn : req.body.user_name: susu
+
+2020.12.30, 18:42:14.0033 UTC -> Warn : req.body.password: susu1234
+
+2020.12.30, 18:42:14.0034 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.30, 18:42:17.0650 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 18:51:38.0311 UTC -> Warn : req.body.user_name: susu
+
+2020.12.30, 18:51:38.0313 UTC -> Warn : req.body.password: susu1234
+
+2020.12.30, 18:51:38.0321 UTC -> Warn : req.params.user_name: undefined
+
+2020.12.30, 18:51:44.0646 UTC -> Error : You went into a 404 problem - Please try a valid route
+
+2020.12.30, 18:57:15.0668 UTC -> Error : Error - Missing Params - can not complete valid creation without (description & creationBy & commentOn & creationByName) params
+
+2020.12.30, 19:50:03.0341 UTC -> Error : Error - Missing Params - can not complete valid creation without (description & creationBy & commentOn & creationByName) params
+
+2020.12.30, 19:52:00.0348 UTC -> Error : Error - Missing Params - can not complete valid creation without (description & creationBy & commentOn & creationByName) params
+
+2020.12.30, 19:52:48.0681 UTC -> Error : Error - Missing Params - can not complete valid creation without (description & creationBy & commentOn & creationByName) params
+
