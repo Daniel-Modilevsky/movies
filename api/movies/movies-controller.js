@@ -5,7 +5,7 @@ const Movie = require('../movies/movies-model');
 const upload = require('../../lib/images');
 const fs = require('fs');
 const axios = require("axios").default;
-const { query } = require('express');
+const { query, json } = require('express');
 const url = require('url');
 
 
@@ -176,5 +176,108 @@ const IMDB = async function(req, res) {
         logger.error(error);
     });
 }
-module.exports =  { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, checkMovietId, findUserMovies, getByCategory ,IMDB};
+
+const getCategories = async function(req ,res){
+    try{
+        const movies = await Movie.find();
+        return res.status(200).json(movies);
+    }
+    catch(error){
+        message = 'Error - Failed searching for all movies';
+        logger.error(`${message} + ${error}`);
+        return res.status(400).json({message})
+    }
+}
+const getSmartMovie = async function(req ,res){
+    const movies = await Movie.find();
+    logger.info(JSON.stringify(req.query.vals));
+    const Aliens = String(req.query.vals.Aliens);
+    const FavCategory = String(req.query.vals.Category);
+    const vehicle =  String(req.query.vals.vehicle);
+    const Pet = String(req.query.vals.Pet);
+    const Scarlett = Number(req.query.vals.Scarlett);
+    let counter =0;
+    const allMoviesSelected = [];
+
+    //For Scralet >6 return the highest rated movie of her in the DB
+    if(Scarlett >6){
+        const scarletMovies = [];
+        counter++;
+        movies.forEach(movie => {
+            movie.actors.forEach(actor =>{
+                if(actor.includes("Scarlett Johansson"))
+                {
+                    scarletMovies.push({"id" : movie.id ,"name" : movie.name , "rating" :movie.rate , "categories" : movie.categories , "actors" : movie.actors , "writer" : movie.writer , "director" : movie.director  });
+                    allMoviesSelected.push({"id" : movie.id ,"name" : movie.name , "rating" :movie.rate , "categories" : movie.categories , "actors" : movie.actors , "writer" : movie.writer , "director" : movie.director  });
+                }
+            });
+        });
+    }
+    //For Pet = true brings all the Romance movies and random 1 of them
+    if(Pet == "Yes"){
+        const romanceMovies = [];
+        counter++;
+        movies.forEach(movie => {
+            movie.categories.forEach(categorie =>{
+                if(categorie.includes("Romance"))
+                {
+                    romanceMovies.push({"id" : movie.id ,"name" : movie.name , "rating" :movie.rate , "categories" : movie.categories , "actors" : movie.actors , "writer" : movie.writer , "director" : movie.director  });
+                    allMoviesSelected.push({"id" : movie.id ,"name" : movie.name , "rating" :movie.rate , "categories" : movie.categories , "actors" : movie.actors , "writer" : movie.writer , "director" : movie.director  });
+                }
+            });
+        });
+    }
+    if(vehicle == "Car"){
+        const carsMovies = [];
+        counter++;
+        movies.forEach(movie => {
+                if(containsWord(movie.storyline , "car") || containsWord(movie.storyline , "cars")|| containsWord(movie.storyline , "Car")|| containsWord(movie.storyline , "Cars")){
+                    carsMovies.push({"id" : movie.id ,"name" : movie.name , "rating" :movie.rate , "categories" : movie.categories , "actors" : movie.actors , "writer" : movie.writer , "director" : movie.director , "story" : movie.storyline });
+                    allMoviesSelected.push({"id" : movie.id ,"name" : movie.name , "rating" :movie.rate , "categories" : movie.categories , "actors" : movie.actors , "writer" : movie.writer , "director" : movie.director  });
+                }
+        });
+    }
+    //Bring random movie of Sci-Fi
+    if(Aliens == "Yes"){
+        const SciMovies = [];
+        counter++;
+        movies.forEach(movie => {
+            movie.categories.forEach(categorie =>{
+                if(categorie.includes("Sci-Fi"))
+                {
+                    SciMovies.push({"id" : movie.id ,"name" : movie.name , "rating" :movie.rate , "categories" : movie.categories , "actors" : movie.actors , "writer" : movie.writer , "director" : movie.director  });
+                    allMoviesSelected.push({"id" : movie.id ,"name" : movie.name , "rating" :movie.rate , "categories" : movie.categories , "actors" : movie.actors , "writer" : movie.writer , "director" : movie.director  });
+                }
+            });
+        });
+    }
+    logger.debug(counter);
+    if(counter>0){
+        const item = allMoviesSelected[Math.floor(Math.random() * allMoviesSelected.length)];
+        logger.info(JSON.stringify(allMoviesSelected));
+        return res.status(200).json({item });
+    }
+    else{
+        logger.warn("Other");
+        const FavCategoryarr = [];
+        movies.forEach(movie => {
+            movie.categories.forEach(categorie =>{
+                if(categorie.includes(FavCategory))
+                {
+                    FavCategoryarr.push({"id" : movie.id ,"name" : movie.name , "rating" :movie.rate , "categories" : movie.categories , "actors" : movie.actors , "writer" : movie.writer , "director" : movie.director  });
+                }
+            });
+        });
+        logger.info(FavCategoryarr);
+        const item = FavCategoryarr[Math.floor(Math.random() * FavCategoryarr.length)];
+        logger.info(JSON.stringify(item));
+        return res.status(200).json({item });
+
+    }
+}
+
+function containsWord(str, word) {
+    return str.match(new RegExp("\\b" + word + "\\b")) != null;
+  }
+module.exports =  { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, checkMovietId, findUserMovies, getByCategory ,IMDB , getCategories , getSmartMovie};
 
