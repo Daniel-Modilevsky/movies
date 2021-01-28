@@ -1,5 +1,5 @@
 const logger = require('../../lib/logs');
-const User = require("../../api/users/users-model");
+const User = require("../models/users-model");
 const mongoose = require("mongoose");
 const bcrypt = require('bcrypt');
 let message = '';
@@ -33,7 +33,6 @@ const signup = async function (req, res) {
         const user = await User.findOne({ user_name: newUser.user_name });
         if (!user) {
             newUser.save();
-            logger.info(newUser);
             return res.status(200).json({ newUser });
         }
     }
@@ -46,7 +45,6 @@ const signup = async function (req, res) {
 const login = async function (req, res) {
     try{
         const newUser = { user_name : req.body.user_name, password : req.body.password };
-        logger.debug(newUser.user_name);
         const profile = await User.findOne({ user_name: newUser.user_name });
         if (!profile) {
             message = "Error - User not exists";
@@ -55,7 +53,6 @@ const login = async function (req, res) {
         }
         else {
             if (bcrypt.compareSync(newUser.password,profile.password)) {  
-                logger.info(profile);
                 res.status(200).json({ profile });      
             }
             else { 
@@ -71,11 +68,7 @@ const login = async function (req, res) {
         return res.status(401).json({ message });
     }
 };
-const logout = function(req, res){
-    //req.logout();
-    logger.info("The user just loged off");
-};
-module.exports = {checkEmail, signup, login, logout};
+module.exports = {checkEmail, signup, login};
 
 
 

@@ -17,7 +17,6 @@ const movieSchema = mongoose.Schema({
     isdeleted: {type: Boolean, default: false}
 },{ collection: 'movies'});
 
-
 movieSchema.pre('save', next => {
     logger.info('prepring for save');
     return next();

@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 const logger = require('../../lib/logs');
 
-
 const userSchema = mongoose.Schema({
     _id: mongoose.Schema.Types.ObjectId,
     user_name: { type: String, require: true, unique: true },
@@ -12,9 +11,8 @@ const userSchema = mongoose.Schema({
     isdeleted: {type: Boolean, default: false}
 },{ collection: 'users'});
 
-
 userSchema.pre('save', next => {
-    logger.info('prepring for save');
+    logger.info('saving');
     return next();
 });
 

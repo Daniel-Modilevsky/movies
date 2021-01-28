@@ -1,13 +1,12 @@
 const mongoose = require('mongoose');
 const logger = require('../../lib/logs');
 const config = require('../../config/config-default');
-const Movie = require('../movies/movies-model');
+const Movie = require('../models/movies-model');
 const upload = require('../../lib/images');
 const fs = require('fs');
 const axios = require("axios").default;
 const { query, json } = require('express');
 const url = require('url');
-
 
 
 const checkMovietId = async function(req, res, next){
@@ -19,7 +18,6 @@ const checkMovietId = async function(req, res, next){
             return res.status(401).json({message});
         }
         else{
-            logger.info(`Success - founded the movie`);
             next();
         }
     }
@@ -42,16 +40,13 @@ const getAllmovies = async function(req, res){
 };
 const getMovie = async function(req, res){
     try{
-        logger.info('getMovie');
         const movie = await Movie.findOne({ _id: req.params.id });
-        logger.info(movie);
         return res.status(200).json({movie});
     }
     catch (error) {return res.status(400).json({error});}
 };
 const createMovie = async function(req, res){
     try{
-        logger.info('createMovie');
         if(!req.body.name || !req.body.year || !req.body.runTime || !req.body.categories || !req.body.releaseDate ){
             logger.error('Error - Missing Params - can not complete valis creation without (name & year & runTim & categories & releaseDate) params');
             return res.status(400).send('Error - Missing Params - can not complete valis creation without (name & year & runTim & categories & releaseDate) params');
@@ -74,7 +69,6 @@ const createMovie = async function(req, res){
         const movie = await Movie.findById({_id:newMovie._id});
         if(!movie){
             newMovie.save();
-            logger.info(`Success - Created New Movie ${newMovie}`);
             return res.status(200).json(newMovie);
         }
         else{
@@ -91,8 +85,7 @@ const createMovie = async function(req, res){
 };
 const updateMovie = async function(req, res){
     try{
-        logger.info('updateMovie');
-        const movie = await Movie.findById({ id: req.params.id });
+        const movie = await Movie.findById({ _id: req.params.id });
         if(req.params.name) movie.name = req.params.name;
         if(req.params.year) movie.year = req.params.year;
         if(req.params.runTime) movie.runTime = req.params.runTime;
@@ -103,21 +96,17 @@ const updateMovie = async function(req, res){
         if(req.params.actors) movie.actors = req.params.actors;
         if(req.params.storyline) movie.storyline = req.params.storyline;
         if(req.params.rate) movie.rate = req.params.rate;
-
-        Movie.update({ id: movie.id });
-        logger.info(movie);
+        Movie.update({ _id: movie._id });
         return res.status(200).json({movie});
     }
     catch (error) {return res.status(400).json({error});}
 };
 const deleteMovie = async function(req, res){
     try{
-        logger.info('deleteMovie');
-        const movie = await Movie.findById({ id: req.params.id });
+        const movie = await Movie.findById({ _id: req.params.id });
         if (movie.isDeleted == false) movie.isDeleted = true;
-        movie.update({ id: movie.id });
-        logger.info(movie);
-        return res.status(200).json({movie});
+        movie.update({ _id: movie._id });
+        return res.status(200).json({msg: `movie : ${req.params.id} deleted`});
     }
     catch (error) {return res.status(400).json({error});}
 };
@@ -125,7 +114,7 @@ const findUserMovies = async function(req, res){
     try{
         const movies = await User.find({_id: req.params.id})
                                  .populate({path: 'movie', model: 'Movie', select: 'moviesCollection'});
-        logger.info(movies);
+        logger.info(movies.length);
         return res.status(200).json({message});
     }
     catch(error){
@@ -160,7 +149,6 @@ const IMDB = async function(req, res) {
     }).catch(function(error) {
         logger.error(error);
     });
-    logger.info(`${config.URL_FILM}/${test}`);
     let options2 = {
         method: 'GET',
         url: `${config.URL_FILM}/${test}`,
@@ -176,7 +164,6 @@ const IMDB = async function(req, res) {
         logger.error(error);
     });
 }
-
 const getSmartMovie = async function(req ,res){
     const movies = await Movie.find();
     logger.info(JSON.stringify(req.query.vals));
@@ -187,7 +174,6 @@ const getSmartMovie = async function(req ,res){
     const Scarlett = Number(req.query.vals.Scarlett);
     let counter =0;
     const allMoviesSelected = [];
-
     //For Scralet >6 return the highest rated movie of her in the DB
     if(Scarlett >6){
         const scarletMovies = [];
@@ -240,14 +226,11 @@ const getSmartMovie = async function(req ,res){
             });
         });
     }
-    logger.debug(counter);
     if(counter>0){
         const item = allMoviesSelected[Math.floor(Math.random() * allMoviesSelected.length)];
-        logger.info(JSON.stringify(allMoviesSelected));
         return res.status(200).json({item });
     }
     else{
-        logger.warn("Other");
         const FavCategoryarr = [];
         movies.forEach(movie => {
             movie.categories.forEach(categorie =>{
@@ -257,14 +240,10 @@ const getSmartMovie = async function(req ,res){
                 }
             });
         });
-        logger.info(FavCategoryarr);
         const item = FavCategoryarr[Math.floor(Math.random() * FavCategoryarr.length)];
-        logger.info(JSON.stringify(item));
         return res.status(200).json({item });
-
     }
 }
-
 function containsWord(str, word) {
     return str.match(new RegExp("\\b" + word + "\\b")) != null;
   }

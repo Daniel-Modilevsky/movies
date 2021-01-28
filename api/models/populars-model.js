@@ -2,7 +2,6 @@ const mongoose = require('mongoose');
 const logger = require('../../lib/logs');
 const autoIncrement = require('mongoose-auto-increment');
 
-
 const popularSchema = mongoose.Schema({
     _id: {type: Number, require: true },
     name:  {type: String , require: true },
@@ -14,7 +13,6 @@ const popularSchema = mongoose.Schema({
     image: {type: String, require: true },
     isdeleted: {type: Boolean, default: false}
 },{ collection: 'populars'});
-
 
 popularSchema.pre('save', next => {
     logger.info('prepring for save');

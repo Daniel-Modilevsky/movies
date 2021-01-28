@@ -1,23 +1,20 @@
 const mongoose = require('mongoose');
 const logger = require('../../lib/logs');
-const config = require('../../config/config-default');
-const Comment = require('./comments-model');
-const User = require('../users/users-model');
-const Movie = require('../movies/movies-model');
+const Comment = require('../models/comments-model');
+const User = require('../models/users-model');
 
 let message = '';
 
 const checkCommentId = async function(req, res, next) {
     try{
         const { id } = req.params;
-        const comment = await Comment.findById({id});
+        const comment = await Comment.findOne({_id: id});
         if(!comment){
             message = 'Error - Comment not exist';
             logger.error(message);
             return res.status(401).json({message});
         }
         else{
-            logger.info(`Success - founded the Comment`);
             next();
         }
     }
@@ -29,7 +26,6 @@ const checkCommentId = async function(req, res, next) {
 };
 const getAllComments = async function(req, res){
     try{
-        logger.info('getAllComments');
         const comments = await Comment.find();
         logger.info(`founded ${comments.length} Comments`);
         return res.status(200).json(comments);
@@ -42,16 +38,13 @@ const getAllComments = async function(req, res){
 };
 const getComment = async function(req, res){
     try{
-        logger.info('getComment');
-        const comment = await Comment.findById({ id: req.params.id });
-        logger.info(comment);
+        const comment = await Comment.findById({ _id: req.params.id });
         return res.status(200).json({comment});
     }
     catch (error) {return res.status(400).json({error});}
 };
 const createComment = async function(req, res){
     try{
-        logger.info('createComment');
         if(!req.body.description || !req.body.creationBy || !req.body.commentOn ||  !req.body.creationByName ){
             logger.error('Error - Missing Params - can not complete valid creation without (description & creationBy & commentOn & creationByName) params');
             return res.status(400).send('Error - Missing Params - can not complete valid creation without (description & creationBy & commentOn & creationByName) params');
@@ -60,7 +53,6 @@ const createComment = async function(req, res){
         const comment = await Comment.findOne({_id : newComment._id});
         if(!comment){
             newComment.save();
-            logger.info(`Success - Created New Comment ${newComment}`);
             return res.status(200).json(newComment);
         }
         else{
@@ -77,24 +69,19 @@ const createComment = async function(req, res){
 };
 const updateComment = async function(req, res){
     try{
-        logger.info('updateComment');
-        const comment = await Comment.findById({ id: req.params.id });
+        const comment = await Comment.findOne({_id: req.params.id});
         if (req.body.description) comment.description = req.body.description;
         comment.creationDate = Date.now();
-        Comment.update({ id: comment.id });
-        logger.info(comment);
+        Comment.update({ _id: comment._id });
         return res.status(200).json({comment});
     }
     catch (error) {return res.status(400).json({error});}
 };
 const deleteComment = async function(req, res){
     try{
-        logger.info('deleteComment');
-        const comment = await Comment.findById({ id: req.params.id });
-        if (comment.isDeleted == false) comment.isDeleted = true;
-        comment.update({ id: comment.id });
-        logger.info(comment);
-        return res.status(200).json({comment});
+        const comment = await Comment.findById({ _id: req.params.id });
+        comment.delete({ _id: comment._id });
+        return res.status(200).json({msg: `The Comment ${req.params.id} - deleted`});
     }
     catch (error) {return res.status(400).json({error});}
 };
@@ -102,7 +89,7 @@ const findUserComments = async function(req, res){
     try{
         const comments = await User.find({_id: req.params.id})
                                  .populate({path: 'comment', model: 'Comment', select: 'createdBy'});
-        logger.info(comments);
+        logger.info(`founded ${comments.length} comments`);
         return res.status(200).json({comments});
     }
     catch(error){

@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 const logger = require('../../lib/logs');
 
-
 const commentSchema = mongoose.Schema({
     _id: mongoose.Schema.Types.ObjectId,
     description: { type: String , require: true },
@@ -13,7 +12,6 @@ const commentSchema = mongoose.Schema({
     isdeleted: {type: Boolean, default: false}
 },{ collection: 'comments'});
  
-
 commentSchema.pre('save', next => {
     logger.info('Saving');
     return next();
