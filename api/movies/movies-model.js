@@ -6,7 +6,7 @@ const movieSchema = mongoose.Schema({
     name:  {type: String , require: true },
     year: { type: Number , require: true , min: 1950, max: 2040},
     runTime: {type: Number , require: true, min: 0},
-    categories : { type: [String] ,enumValues:["Comedy", "Action", "Drama", "Crime", "Fantasy", "Romance", "Horror", "Documentaries", "Adventure", "Thriller", "Animation"], require: true},
+    categories : { type: [String] ,npm:["Comedy", "Action", "Drama", "Crime", "Fantasy", "Romance", "Horror", "Documentaries", "Adventure", "Thriller", "Animation"], require: true},
     releaseDate: { type: Date , require: true},
     director: { type: String },
     writer: { type: String },

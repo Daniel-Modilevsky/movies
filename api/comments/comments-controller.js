@@ -113,7 +113,7 @@ const findUserComments = async function(req, res){
 };
 const findMoviesCommented = async function(req,res){
     try{
-        const comments = await Comment.find({commentOn:req.params.id});
+        const comments = await Comment.find({commentOn:req.params.id, isPublic:true});
         logger.info(`founded ${comments.length} comments of the movie`);
         return res.status(200).json({comments});
     }
@@ -123,5 +123,17 @@ const findMoviesCommented = async function(req,res){
             return res.status(400).json(message);
     }
 };
+const findAdminCommented = async function(req,res){
+    try{
+        const comments = await Comment.find({isPublic:false});
+        logger.info(`founded ${comments.length} comments of the movie`);
+        return res.status(200).json({comments});
+    }
+    catch(error){
+        message = `Error - Faild Search comments for admin`;
+            logger.error(`${message} : ${error}`);
+            return res.status(400).json(message);
+    }
+};
 
-module.exports =  { getAllComments, getComment, createComment, updateComment, deleteComment, checkCommentId, findUserComments, findMoviesCommented };
+module.exports =  { getAllComments, getComment, createComment, updateComment, deleteComment, checkCommentId, findUserComments, findMoviesCommented, findAdminCommented };

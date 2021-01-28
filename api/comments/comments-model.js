@@ -12,7 +12,7 @@ const commentSchema = mongoose.Schema({
     isPublic: {type: Boolean, default: false},
     isdeleted: {type: Boolean, default: false}
 },{ collection: 'comments'});
-
+ 
 
 commentSchema.pre('save', next => {
     logger.info('Saving');
