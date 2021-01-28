@@ -177,17 +177,6 @@ const IMDB = async function(req, res) {
     });
 }
 
-const getCategories = async function(req ,res){
-    try{
-        const movies = await Movie.find();
-        return res.status(200).json(movies);
-    }
-    catch(error){
-        message = 'Error - Failed searching for all movies';
-        logger.error(`${message} + ${error}`);
-        return res.status(400).json({message})
-    }
-}
 const getSmartMovie = async function(req ,res){
     const movies = await Movie.find();
     logger.info(JSON.stringify(req.query.vals));
@@ -279,5 +268,5 @@ const getSmartMovie = async function(req ,res){
 function containsWord(str, word) {
     return str.match(new RegExp("\\b" + word + "\\b")) != null;
   }
-module.exports =  { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, checkMovietId, findUserMovies, getByCategory ,IMDB , getCategories , getSmartMovie};
+module.exports =  { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, checkMovietId, findUserMovies, getByCategory ,IMDB , getSmartMovie};
 
