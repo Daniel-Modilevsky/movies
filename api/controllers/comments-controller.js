@@ -77,6 +77,16 @@ const updateComment = async function(req, res){
     }
     catch (error) {return res.status(400).json({error});}
 };
+const approveComment = async function(req, res){
+    try{
+        const comment = await Comment.findOne({_id: req.params.id});
+        if (comment.isPublic == false) comment.isPublic = true;
+        comment.creationDate = Date.now();
+        Comment.update({ _id: comment._id });
+        return res.status(200).json({comment});
+    }
+    catch (error) {return res.status(400).json({error});}
+};
 const deleteComment = async function(req, res){
     try{
         const comment = await Comment.findById({ _id: req.params.id });
@@ -123,4 +133,4 @@ const findAdminCommented = async function(req,res){
     }
 };
 
-module.exports =  { getAllComments, getComment, createComment, updateComment, deleteComment, checkCommentId, findUserComments, findMoviesCommented, findAdminCommented };
+module.exports =  { getAllComments, getComment, createComment, updateComment, deleteComment, checkCommentId, findUserComments, findMoviesCommented, findAdminCommented, approveComment };
