@@ -5,7 +5,7 @@ const upload = require('../../lib/images');
 
 router.get('/api/movies/smart/', getSmartMovie);
 router.get('/api/categories/:categoryName', getByCategory); 
-router.get('/api/movies/IMDB/', IMDB);
+router.post('/api/movies/IMDB/', IMDB);
 router.get('/api/movies/', getAllmovies)
       .post('/api/movies/', upload.single('image') ,createMovie);
 router.get('/api/movies/:id', checkMovietId, getMovie)

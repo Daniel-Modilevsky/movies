@@ -82,7 +82,9 @@ const approveComment = async function(req, res){
         const comment = await Comment.findOne({_id: req.params.id});
         if (comment.isPublic == false) comment.isPublic = true;
         comment.creationDate = Date.now();
-        Comment.update({ _id: comment._id });
+        comment.update({ _id: comment._id });
+        logger.info(comment);
+        comment.save();
         return res.status(200).json({comment});
     }
     catch (error) {return res.status(400).json({error});}
