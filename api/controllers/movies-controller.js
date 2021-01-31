@@ -132,7 +132,7 @@ const getByCategory = async function(req, res){
 }
 const IMDB = async function(req, res) {
     let test;
-    let name = req.query.name;
+    let name = req.body.name;
     let options = {
         method: 'GET',
         url: `${config.URL_ID}/${name}`,
