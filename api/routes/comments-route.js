@@ -1,9 +1,10 @@
 const express = require('express');
-const { getAllComments, getComment, createComment, updateComment, deleteComment, checkCommentId, findMoviesCommented, findAdminCommented, approveComment } = require('../controllers/comments-controller');
+const { getAllComments, getComment, createComment, updateComment, deleteComment, checkCommentId, findMoviesCommented, findAdminCommented, approveComment, findUserCommented } = require('../controllers/comments-controller');
 let router = express.Router();
 
 router.get('/api/moviecomments/:id',findMoviesCommented);
 router.get('/api/admincomments/',findAdminCommented);
+router.get('/api/usercomments/:id',findUserCommented);
 router.get('/api/comments/', getAllComments)
       .post('/api/comments/', createComment);
 router.get('/api/comments/:id', checkCommentId , getComment)

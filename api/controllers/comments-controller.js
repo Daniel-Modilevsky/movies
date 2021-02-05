@@ -134,5 +134,18 @@ const findAdminCommented = async function(req,res){
             return res.status(400).json(message);
     }
 };
+const findUserCommented = async function(req,res){
+    try{
+        const comments = await Comment.find({creationBy:req.params.id, isPublic:true});
+        logger.info(`founded ${comments.length} comments of User`);
+        return res.status(200).json({comments});
+    }
+    catch(error){
+        message = `Error - Faild Search comments of User`;
+            logger.error(`${message} : ${error}`);
+            return res.status(400).json(message);
+    }
+};
 
-module.exports =  { getAllComments, getComment, createComment, updateComment, deleteComment, checkCommentId, findUserComments, findMoviesCommented, findAdminCommented, approveComment };
+
+module.exports =  { getAllComments, getComment, createComment, updateComment, deleteComment, checkCommentId, findUserComments, findMoviesCommented, findAdminCommented, approveComment, findUserCommented};
