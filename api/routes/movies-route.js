@@ -3,7 +3,7 @@ const { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, checkMovi
 let router = express.Router();
 const upload = require('../../lib/images');
 
-router.get('/api/movies/smart/', getSmartMovie);
+router.post('/api/movies/smart/', getSmartMovie);
 router.get('/api/categories/:categoryName', getByCategory); 
 router.post('/api/movies/IMDB/', IMDB);
 router.get('/api/movies/', getAllmovies)

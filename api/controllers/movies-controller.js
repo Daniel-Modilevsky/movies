@@ -166,14 +166,19 @@ const IMDB = async function(req, res) {
 }
 const getSmartMovie = async function(req ,res){
     const movies = await Movie.find();
-    logger.info(JSON.stringify(req.query.vals));
-    const Aliens = String(req.query.vals.Aliens);
-    const FavCategory = String(req.query.vals.Category);
-    const vehicle =  String(req.query.vals.vehicle);
-    const Pet = String(req.query.vals.Pet);
-    const Scarlett = Number(req.query.vals.Scarlett);
+    const temp = { Aliens : req.body.Aliens, FavCategory : req.body.FavCategory ,vehicle:req.body.vehicle ,Scarlett:req.body.Scarlett , Pet:req.body.Pet   };
+
+    logger.error(JSON.stringify(temp));
+
+    const Aliens = String(temp.Aliens);
+    logger.debug(Aliens);
+    const FavCategory = String(temp.Category);
+    const vehicle =  String(temp.vehicle);
+    const Pet = String(temp.Pet);
+    const Scarlett = Number(temp.Scarlett);
     let counter =0;
     const allMoviesSelected = [];
+
     //For Scralet >6 return the highest rated movie of her in the DB
     if(Scarlett >6){
         const scarletMovies = [];
@@ -226,11 +231,14 @@ const getSmartMovie = async function(req ,res){
             });
         });
     }
+    logger.debug(counter);
     if(counter>0){
         const item = allMoviesSelected[Math.floor(Math.random() * allMoviesSelected.length)];
+        logger.info(JSON.stringify(allMoviesSelected));
         return res.status(200).json({item });
     }
     else{
+        logger.warn("Other");
         const FavCategoryarr = [];
         movies.forEach(movie => {
             movie.categories.forEach(categorie =>{
@@ -240,8 +248,11 @@ const getSmartMovie = async function(req ,res){
                 }
             });
         });
+        logger.info(FavCategoryarr);
         const item = FavCategoryarr[Math.floor(Math.random() * FavCategoryarr.length)];
+        logger.info(JSON.stringify(item));
         return res.status(200).json({item });
+
     }
 }
 function containsWord(str, word) {
