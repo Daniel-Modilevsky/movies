@@ -257,6 +257,34 @@ const getSmartMovie = async function(req ,res){
 }
 function containsWord(str, word) {
     return str.match(new RegExp("\\b" + word + "\\b")) != null;
+}
+function compare( a, b ) {
+    if ( a.movieRate > b.movieRate ){
+      return -1;
+    }
+    if ( a.movieRate < b.movieRate ){
+      return 1;
+    }
+    return 0;
   }
-module.exports =  { getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, checkMovietId, findUserMovies, getByCategory ,IMDB , getSmartMovie};
+const getTopRated = async function(req, res){
+    try{
+        const movies = await Movie.find();
+        let ratedMovies = movies.map(movie => {
+            let rated = {};
+            rated.movieName = movie.name;
+            rated.movieImage = 'https://movies-smart.herokuapp.com/' +  movie.image;
+            rated.movieRate = movie.rate;
+            return rated;
+        });
+        ratedMovies.sort(compare);
+        return res.status(200).json({ratedMovies});
+    }
+    catch(error){
+        message = 'Error - getTopRated ';
+        logger.error(`${message} + ${error}`);
+        return res.status(400).json({message})
+    }
+};
+module.exports =  { getTopRated, getAllmovies, getMovie, createMovie, updateMovie, deleteMovie, checkMovietId, findUserMovies, getByCategory ,IMDB , getSmartMovie};
 

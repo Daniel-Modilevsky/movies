@@ -606,7 +606,61 @@ function containsWord(str, word) {
   return str.match(new RegExp("\\b" + word + "\\b")) != null;
 }
 
+function compare(a, b) {
+  if (a.movieRate > b.movieRate) {
+    return -1;
+  }
+
+  if (a.movieRate < b.movieRate) {
+    return 1;
+  }
+
+  return 0;
+}
+
+var getTopRated = function getTopRated(req, res) {
+  var movies, ratedMovies;
+  return regeneratorRuntime.async(function getTopRated$(_context11) {
+    while (1) {
+      switch (_context11.prev = _context11.next) {
+        case 0:
+          _context11.prev = 0;
+          _context11.next = 3;
+          return regeneratorRuntime.awrap(Movie.find());
+
+        case 3:
+          movies = _context11.sent;
+          ratedMovies = movies.map(function (movie) {
+            var rated = {};
+            rated.movieName = movie.name;
+            rated.movieImage = 'https://movies-smart.herokuapp.com/' + movie.image;
+            rated.movieRate = movie.rate;
+            return rated;
+          });
+          ratedMovies.sort(compare);
+          return _context11.abrupt("return", res.status(200).json({
+            ratedMovies: ratedMovies
+          }));
+
+        case 9:
+          _context11.prev = 9;
+          _context11.t0 = _context11["catch"](0);
+          message = 'Error - getTopRated ';
+          logger.error("".concat(message, " + ").concat(_context11.t0));
+          return _context11.abrupt("return", res.status(400).json({
+            message: message
+          }));
+
+        case 14:
+        case "end":
+          return _context11.stop();
+      }
+    }
+  }, null, null, [[0, 9]]);
+};
+
 module.exports = {
+  getTopRated: getTopRated,
   getAllmovies: getAllmovies,
   getMovie: getMovie,
   createMovie: createMovie,
