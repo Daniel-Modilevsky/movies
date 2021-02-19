@@ -17,9 +17,7 @@ const checkMovietId = async function(req, res, next){
             logger.error(message);
             return res.status(401).json({message});
         }
-        else{
-            next();
-        }
+        else{ next(); }
     }
     catch(error){
         message = 'Error - Problem find movie';

@@ -1,8 +1,6 @@
 const mongoose = require('mongoose');
 const logger = require('../../lib/logs');
-const config = require('../../config/config-default');
 const Popular = require('../models/populars-model');
-const { query } = require('express');
 
 const checkPopulartId = async function(req, res, next){
     try{
